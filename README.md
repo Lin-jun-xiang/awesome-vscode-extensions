@@ -25,7 +25,7 @@
 > 1. 存取當前電腦 vscode 的所有插件，輸出成文本，於 `terminal (powershell)` 中輸入以下指令:
 > `code --list-extensions | ForEach-Object {"code --install-extension $_"} > extensions.ps1`
 > 2. 執行完指令後，會在當前目錄得到 `<extensions.ps1` 檔案 (檔名在執行指令時定義)
-> ![](img/2023-03-17-22-28-35.png)
+> ![](img/2023-03-17-22-28-35.png =100x20)
 > 3. 在新電腦中，於 `terminal (powershell)` 中輸入以下指令:
 > `.\extensions.ps1`
 > 4. 下載完成
@@ -250,6 +250,8 @@ Mac: `cmd+shift+2`
 > 3. 選擇 `Run Selection/Line in Interactive Window`
 ![](img/2023-03-17-22-04-33.png)
 
+<a href="#top">Back to top</a>
+
 ---
 
 ## Git、Markdown 輔助
@@ -269,6 +271,8 @@ Mac: `cmd+shift+2`
 
 ![](img/2023-03-17-22-15-20.png)
 
+<a href="#top">Back to top</a>
+
 ---
 
 ## 修復器 (如果卸載vscode插件發生損毀，請使用此插件修理)
@@ -282,5 +286,7 @@ Mac: `cmd+shift+2`
 > 5. `Developer: Reload Window`: 重啟 vscode
 
 ![](img/2023-03-17-21-36-48.png)
+
+<a href="#top">Back to top</a>
 
  
