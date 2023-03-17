@@ -1,7 +1,9 @@
 # vscode-extensions [Required]
-> [中文版README.md](README_中文.md)
-> 中文版介紹較為完整，英文版持續更新中
-> The Chinese version currently has a more complete introduction, while the English version is being continuously updated.
+* [中文版README.md](README_中文.md)
+* 中文版介紹較為完整，英文版持續更新中
+* The Chinese version currently has a more complete introduction, while the English version is being continuously updated.
+
+---
 
 * Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
 * This project will provide detailed usage instructions for each extension, with the hope of helping coders all over the world to code happily together :sunglasses:
