@@ -25,7 +25,7 @@
 > 1. 存取當前電腦 vscode 的所有插件，輸出成文本，於 `terminal (powershell)` 中輸入以下指令:
 > `code --list-extensions | ForEach-Object {"code --install-extension $_"} > extensions.ps1`
 > 2. 執行完指令後，會在當前目錄得到 `<extensions.ps1` 檔案 (檔名在執行指令時定義)
-> ![](img/2023-03-17-22-28-35.png =100x20)
+> <img src="img/2023-03-17-22-28-35.png" width="60%">
 > 3. 在新電腦中，於 `terminal (powershell)` 中輸入以下指令:
 > `.\extensions.ps1`
 > 4. 下載完成
@@ -49,44 +49,44 @@
 * 非常罕見的主題 (說難聽一點就是沒啥人用阿)，作者獨愛這個
 * 怕各位找不到這個，附上<a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">連結</a>
 
-![](img/2023-03-17-14-36-15.png)
+<img src="img/2023-03-17-14-36-15.png" width="60%">
 
 ### Coder200
 * 這次看名字，完全毫無想法了...
 * 非常罕見的主題，充滿著*橘橙色*，so sexy~:flushed:
 
-![](img/2023-03-17-14-44-30.png)
+<img src="img/2023-03-17-14-44-30.png" width="60%">
 
 ### Dracula Official
 * 非常知名，充滿著*粉色*與*紫色*的吸血鬼色
 
-![](img/2023-03-17-14-51-36.png)
+<img src="img/2023-03-17-14-51-36.png" width="60%">
 
 ### LaserWave
 * 帶有夕陽感覺的*紫粉色*
 
-![](img/2023-03-17-20-17-56.png)
+<img src="img/2023-03-17-20-17-56.png" width="60%">
 
 ### Moegi Theme
 * 溫和、不傷眼的主題
 
-![](img/2023-03-17-20-20-13.png)
+<img src="img/2023-03-17-20-20-13.png" width="60%">
 
 ### Panda Theme
 * 具有*湖水綠* 的頂級主題:panda_face:
 * 該主題真的很香
 
-![](img/2023-03-17-20-21-23.png)
+<img src="img/2023-03-17-20-21-23.png" width="60%">
 
 ### Simple Dark
 * 背景非常黑，文字顏色也不會太刺眼
 
-![](img/2023-03-17-20-23-37.png)
+<img src="img/2023-03-17-20-23-37.png" width="60%">
 
 ### Skyline
 * 喜歡藍色的朋友一定要用:blue_heart:
 
-![](img/2023-03-17-20-25-15.png)
+<img src="img/2023-03-17-20-25-15.png" width="60%">
 
 ### SynthWave '84
 * 超級高科技、炫炮的螢光主題:sunglasses:
@@ -97,30 +97,30 @@
 > 2. "Synthwave '84: Enable/Disable Neon Dreams": 開啟、關閉 (附圖)
 > 3. "Restart": 重啟 vscode
 
-![](img/2023-03-17-20-28-44.png)
+<img src="img/2023-03-17-20-28-44.png" width="60%">
 
-![](img/2023-03-17-20-27-06.png)
+<img src="img/2023-03-17-20-27-06.png" width="60%">
 
 ### Tearz
 * 與前面介紹的 Moegi 有點相似
 * 但是這個*紫色*真的太吸引作者了~
 
-![](img/2023-03-17-20-33-32.png)
+<img src="img/2023-03-17-20-33-32.png" width="60%">
 
 ### Xcode Theme
 * 經典主題之一，不敢忽略
 
-![](img/2023-03-17-20-35-39.png)
+<img src="img/2023-03-17-20-35-39.png" width="60%">
 
 ### One Dark Pro
 * 經典主題之一，不敢忽略
 
-![](img/2023-03-17-20-36-31.png)
+<img src="img/2023-03-17-20-36-31.png" width="60%">
 
 ### Material Dark
 * 經典主題之一，不敢忽略
 
-![](img/2023-03-17-20-37-24.png)
+<img src="img/2023-03-17-20-37-24.png" width="60%">
 
 <a href="#top">Back to top</a>
 
@@ -132,19 +132,19 @@
 * 如果您是**前端工程師**或**數據分析師**，常常需要進行**視覺化**工作，您一定要下載這個 !
 * 在編輯時，只要出現*十六進制*的顏色表達式，就可以清楚看到顏色囉 (再也不用執行完代碼，才知道顏色好不好看)
 
-![](img/2023-03-17-20-48-11.png)
+<img src="img/2023-03-17-20-48-11.png" width="60%">
 
 ### Material Theme Icons
 * 不同附檔名，不同的 Icon
 * 除了好看之外，還可以讓自己在找檔案時更快速
 
-![](img/2023-03-17-20-51-07.png)
+<img src="img/2023-03-17-20-51-07.png" width="60%">
 
 ### vscode-icons
 * 與 Material Theme Icons 略為不同
 * 作者偏好使用這個~
 
-![](img/2023-03-17-20-53-26.png)
+<img src="img/2023-03-17-20-53-26.png" width="60%">
 
 <a href="#top">Back to top</a>
 
@@ -158,13 +158,13 @@
 * 可以讓 vscode 一鍵執行程式
 * 支援大量語言，例如: C, C++, Java, JavaScript, PHP, Python, Perl...等 
 
-![](img/2023-03-17-20-59-33.png)
+<img src="img/2023-03-17-20-59-33.png" width="60%">
 
 ### Comment Divider
 * 快捷鍵生成好看*註釋風格*
 * 如下圖，可以看到 `Shift+Alt+x` 及 `Alt+x` 兩種風格 
 
-![](img/2023-03-17-21-03-04.png)
+<img src="img/2023-03-17-21-03-04.png" width="60%">
 
 ### autoDocstring - Python Docstring Generator
 * 該插件是針對 `Python` 開發者所介紹
@@ -176,7 +176,7 @@
 Windows: `ctrl+shift+2`
 Mac: `cmd+shift+2` 
 
-![](img/2023-03-17-21-07-10.png)
+<img src="img/2023-03-17-21-07-10.png" width="60%">
 
 ### Draw.io Integration
 * 流程圖繪製工具
@@ -184,14 +184,14 @@ Mac: `cmd+shift+2`
 * 可以做為筆記使用
 * 支援許多常用圖案，例如 Google Cloud Platform 代表功能符 (如圖)
 
-![](img/2023-03-17-21-14-00.png)
+<img src="img/2023-03-17-21-14-00.png" width="60%">
 
 ### Path Intellisense
 * 編碼時擁有這個插件，真是幸福:kissing_heart:
 * 適合常常讀寫檔案的碼農使用
 * 寫路徑時，會自動列出您尋找路徑下的檔案
 
-![](img/2023-03-17-21-17-09.png)
+<img src="img/2023-03-17-21-17-09.png" width="60%">
 
 <a href="#top">Back to top</a>
 
@@ -208,7 +208,7 @@ Mac: `cmd+shift+2`
 `ctrl+alt+z`: 調低飽和度 (透明)
 `ctrl+alt+c`: 調高飽和度 (不透明)
 
-![](img/2023-03-17-21-25-27.png)
+<img src="img/2023-03-17-21-25-27.png" width="60%">
 
 <a href="#top">Back to top</a>
 
@@ -231,24 +231,24 @@ Mac: `cmd+shift+2`
 > 使用方法:
 > * 下載以下插件 (有些應該不用，但小弟忘記啦~)
 `Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
-![](img/2023-03-17-21-50-07.png)
+<img src="img/2023-03-17-21-50-07.png" width="60%">
 
 > * **以交互模式執行代碼**
 > 1. 於腳本中滑鼠右鍵
 > 2. 選擇 `Run Current File in Interactive Window` (建議設置vscode快捷鍵，本人設置 `F10`)
-![](img/2023-03-17-21-54-03.png)
+<img src="img/2023-03-17-21-54-03.png" width="60%">
 > 3. 執行完時，會出現 `Interactive` 視窗:
-![](img/2023-03-17-21-57-03.png)
+<img src="img/2023-03-17-21-57-03.png" width="60%">
 
 > * **查看變數資料型態、變數值** (需處在交互模式中)
 > 點選交互視窗中的 `Variables`
-![](img/2023-03-17-22-01-55.png)
+<img src="img/2023-03-17-22-01-55.png" width="60%">
 
 > * **逐行執行、部分執行**
 > 1. 選取要執行的程式碼 (可以是一行或多行)
 > 2. 滑鼠右鍵
 > 3. 選擇 `Run Selection/Line in Interactive Window`
-![](img/2023-03-17-22-04-33.png)
+<img src="img/2023-03-17-22-04-33.png" width="60%">
 
 <a href="#top">Back to top</a>
 
@@ -262,14 +262,14 @@ Mac: `cmd+shift+2`
 * 注意看右半區塊的代碼，`170` 行有*綠色*的線，表示此地有*新增代碼*紀錄 (*紅色*則是有*刪減*)
 * 記得專案要用 `git` 追蹤，該插件才有用哦
 
-![](img/2023-03-17-22-08-15.png)
+<img src="img/2023-03-17-22-08-15.png" width="60%">
 
 ### Markdown Preview Enhanced
 * 編寫 `.md` 檔案時，可以預瀏覽結果
 * `ctrl+k` 接著 `v`，打開預覽畫面
 * 下圖中間是 `.md` 檔案，右邊則是預覽畫面
 
-![](img/2023-03-17-22-15-20.png)
+<img src="img/2023-03-17-22-15-20.png" width="60%">
 
 <a href="#top">Back to top</a>
 
@@ -285,7 +285,7 @@ Mac: `cmd+shift+2`
 > 4. `ctrl+shift+p`: 打開命令
 > 5. `Developer: Reload Window`: 重啟 vscode
 
-![](img/2023-03-17-21-36-48.png)
+<img src="img/2023-03-17-21-36-48.png" width="60%">
 
 <a href="#top">Back to top</a>
 
