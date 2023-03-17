@@ -25,7 +25,7 @@
 > 1. 存取當前電腦 vscode 的所有插件，輸出成文本，於 `terminal (powershell)` 中輸入以下指令:
 > `code --list-extensions | ForEach-Object {"code --install-extension $_"} > extensions.ps1`
 > 2. 執行完指令後，會在當前目錄得到 `<extensions.ps1` 檔案 (檔名在執行指令時定義)
-> <img src="img/2023-03-17-22-28-35.png" width="60%">
+<img src="img/2023-03-17-22-28-35.png" width="60%">
 > 3. 在新電腦中，於 `terminal (powershell)` 中輸入以下指令:
 > `.\extensions.ps1`
 > 4. 下載完成
