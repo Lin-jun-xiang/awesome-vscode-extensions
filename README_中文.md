@@ -1,53 +1,53 @@
-# vscode-extensions [Required]
-> [中文版README.md](README_中文.md)
-> 中文版介紹較為完整，英文版持續更新中
-> The Chinese version currently has a more complete introduction, while the English version is being continuously updated.
+# vscode-extensions 必備插件
 
-* Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
-* This project will provide detailed usage instructions for each extension, with the hope of helping coders all over the world to code happily together :sunglasses:
-* Outline of extensions:
-    - [Quickly download multiple extensions](#starquickly-download-multiple-extensions-please-read-this-first)
-    - [Theme](#purple_hearttheme)
-    - [Editor and environment beautification]
-    - [Must-haves and highly recommended]
-    - [Transparent editor]
-    - [Big data and AI engineer - Jupyter(Python)]
-    - [Git and Markdown assistants]
-    - [Fixer]
+* 紀錄與分享 vscode 插件，包含提升*開發效率、不可不擁有的、美化主題(theme)環境*...等
+* 本專案會詳細介紹每個插件的使用方式，希望可以幫助到各地碼農們，讓大家一起開心敲代碼吧 :sunglasses:
+
+
+- 插件大綱
+    - [快速下載多個插件](#快速下載多個插件)
+    - [主題 Theme](#主題-theme)
+    - [美化編輯器、編輯環境](#美化編輯器編輯環境)
+    - [不可不擁有的、非常大推](#不可不擁有的、非常大推)
+    - [透明化編輯器](#透明化編輯器)
+    - [大數據、AI 工程師 - Jupyter(Python)](#大數據ai-工程師---jupyter-python)
+    - [Git、Markdown 輔助](#gitmarkdown-輔助)
+    - [修復器](#修復器-如果卸載vscode插件發生損毀請使用此插件修理)
+
 ---
 
-## :star:Quickly download multiple extensions (please read this first)
-Later, we will introduce a lot of vscode extensions. Here is a trick that can quickly download many extensions without having to look for them one by one.
-(You can download the `.ps1` file attached to this project through the third step and exclude the extensions you don't need)
-If you want to transfer extensions from an old computer to a new one in the future, you can also use this method ~:kissing:
+## :star:快速下載多個插件 (請先看這邊)
+待會將介紹非常多 vscode 插件，這邊提前告知大家一個絕招，能夠快速下載好多個插件，而不必一個個去尋找
+(大家可以透過第三步驟，下載本專案附上的`.ps1`檔案，並從中排除自己不要的插件)
+未來若要在新電腦移植舊電腦插件，同樣也可以透過該方法~:kissing:
 
-> Method:
-> 1. Access all the extensions of vscode on the current computer and output them as text. Enter the following command in terminal (`powershell`):
+> 方法:
+> 1. 存取當前電腦 vscode 的所有插件，輸出成文本，於 `terminal (powershell)` 中輸入以下指令:
 > `code --list-extensions | ForEach-Object {"code --install-extension $_"} > extensions.ps1`
-> 2. After the command is executed, the `extensions.ps1` file (the filename is defined when executing the command) will be obtained in the current directory.
-> 3. Enter the following command in terminal (`powershell`) on the new computer:
+> 2. 執行完指令後，會在當前目錄得到 `extensions.ps1` 檔案 (檔名在執行指令時定義)
+> 3. 在新電腦中，於 `terminal (powershell)` 中輸入以下指令:
 > `.\extensions.ps1`
-> 4. Download completed
+> 4. 下載完成
 > <img src="img/2023-03-17-22-28-35.png" width="60%">
 
 ---
 
-## :purple_heart:Theme
+## :purple_heart:主題 Theme
 
-The biggest reason for using vscode is to have an `eye-catching`, `elegant`, `comfortable`, and `pleasant editing interface`. Only a good-looking editing environment can make coders willing to type on the keyboard ~:sunglasses:
+使用 vscode 最大的原因莫過於**炫炮、優雅、耐看、舒服**的編輯畫面，好看的編輯環境才能使碼農心甘情願的敲鍵盤阿~:sunglasses:
 
-Next, the author will share his favorite themes with you one by one (the following examples are based on Python, and there may be slight differences for different languages)
+接下來，作者會把自己長年使用的主題一一分享給各位 (以下範例皆以 `Python` 為例，不同語言會有些微差異)
 
-Oh! Wait a minute, here's a quick way to switch themes. After all, you may want to change your theme every day~~
+阿! 在稍等一下，這邊要教大家一個快速切換主題的方法，畢竟之後各位可能會每天換一個主題也說不定~
 
-> Quickly switch themes
-> 1. "ctrl+shift+p": Open the vscode command input box
-> 2. "Preferences: Color Theme": Enter and select the theme you want
+> 快速切換主題:
+> 1. "ctrl+shift+p": 打開 vscode 命令輸入框
+> 2. "Preferences: Color Theme": 輸入、選擇您要的主題
 
 ### ButterTheme
-* As its name suggests, it is a non-eye-straining *cream yellow* theme
-* A very rare theme (to put it bluntly, not many people use it), but the author loves it
-* In case you can't find this theme，<a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">link</a>
+* 如同其名，不傷眼的*奶黃色系*
+* 非常罕見的主題 (說難聽一點就是沒啥人用阿)，作者獨愛這個
+* 怕各位找不到這個，附上<a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">連結</a>
 
 <img src="img/2023-03-17-14-36-15.png" width="60%">
 
@@ -288,5 +288,3 @@ Mac: `cmd+shift+2`
 <img src="img/2023-03-17-21-36-48.png" width="60%">
 
 <a href="#top">Back to top</a>
-
- 
