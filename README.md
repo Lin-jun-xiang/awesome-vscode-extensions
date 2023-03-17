@@ -25,10 +25,10 @@
 > 1. 存取當前電腦 vscode 的所有插件，輸出成文本，於 `terminal (powershell)` 中輸入以下指令:
 > `code --list-extensions | ForEach-Object {"code --install-extension $_"} > extensions.ps1`
 > 2. 執行完指令後，會在當前目錄得到 `<extensions.ps1` 檔案 (檔名在執行指令時定義)
-<img src="img/2023-03-17-22-28-35.png" width="60%">
 > 3. 在新電腦中，於 `terminal (powershell)` 中輸入以下指令:
 > `.\extensions.ps1`
 > 4. 下載完成
+> <img src="img/2023-03-17-22-28-35.png" width="60%">
 
 ---
 
@@ -231,24 +231,24 @@ Mac: `cmd+shift+2`
 > 使用方法:
 > * 下載以下插件 (有些應該不用，但小弟忘記啦~)
 `Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
-<img src="img/2023-03-17-21-50-07.png" width="60%">
+><img src="img/2023-03-17-21-50-07.png" width="60%">
 
 > * **以交互模式執行代碼**
 > 1. 於腳本中滑鼠右鍵
 > 2. 選擇 `Run Current File in Interactive Window` (建議設置vscode快捷鍵，本人設置 `F10`)
-<img src="img/2023-03-17-21-54-03.png" width="60%">
 > 3. 執行完時，會出現 `Interactive` 視窗:
-<img src="img/2023-03-17-21-57-03.png" width="60%">
+><img src="img/2023-03-17-21-54-03.png" width="60%">
+><img src="img/2023-03-17-21-57-03.png" width="60%">
 
 > * **查看變數資料型態、變數值** (需處在交互模式中)
 > 點選交互視窗中的 `Variables`
-<img src="img/2023-03-17-22-01-55.png" width="60%">
+><img src="img/2023-03-17-22-01-55.png" width="60%">
 
 > * **逐行執行、部分執行**
 > 1. 選取要執行的程式碼 (可以是一行或多行)
 > 2. 滑鼠右鍵
 > 3. 選擇 `Run Selection/Line in Interactive Window`
-<img src="img/2023-03-17-22-04-33.png" width="60%">
+><img src="img/2023-03-17-22-04-33.png" width="60%">
 
 <a href="#top">Back to top</a>
 
