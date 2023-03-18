@@ -1,4 +1,4 @@
-# vscode-extensions [Required]
+# vscode-extensions [Commented]
 * [中文版README.md](README_中文.md)
 * 中文版介紹較為完整，英文版持續更新中
 * The Chinese version currently has a more complete introduction, while the English version is being continuously updated.
