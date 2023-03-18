@@ -33,7 +33,7 @@ If you want to transfer extensions from an old computer to a new one in the futu
 > 3. Enter the following command in terminal (`powershell`) on the new computer:
 > `.\extensions.ps1`
 > 4. Download completed
-> <img src="img/2023-03-17-22-28-35.png" width="60%">
+> <img src="https://user-images.githubusercontent.com/63782903/226086537-1dddd375-3206-44db-8208-17715d70c744.png" width="60%">
 
 ---
 
