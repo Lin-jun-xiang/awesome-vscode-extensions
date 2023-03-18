@@ -20,8 +20,11 @@
 
 ## :star:Quickly download multiple extensions (please read this first)
 Later, we will introduce a lot of vscode extensions. Here is a trick that can quickly download many extensions without having to look for them one by one.
-(You can download the `.ps1` file attached to this project through the third step and exclude the extensions you don't need)
+
 If you want to transfer extensions from an old computer to a new one in the future, you can also use this method ~:kissing:
+
+* You can download the `.ps1` file attached to this project and exclude the extensions you don't need by following step three below.
+* In the `extensions.ps1` file, each extension is annotated. Please delete the ones you don't need before executing the installation command.
 
 > Method:
 > 1. Access all the extensions of vscode on the current computer and output them as text. Enter the following command in terminal (`powershell`):
