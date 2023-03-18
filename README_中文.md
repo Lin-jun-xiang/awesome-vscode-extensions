@@ -31,7 +31,7 @@
 > 3. 在新電腦中，於 `terminal (powershell)` 中輸入以下指令:
 > `.\extensions.ps1`
 > 4. 下載完成
-> <img src="img/2023-03-17-22-28-35.png" width="60%">
+> <img src="https://user-images.githubusercontent.com/63782903/226086557-e4ed3105-2c01-40fb-b79d-23afe572d73b.png" width="60%">
 
 ---
 
