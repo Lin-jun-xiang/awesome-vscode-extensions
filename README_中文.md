@@ -9,11 +9,11 @@
     - [主題 Theme](#purple_heart主題-theme)
     - [美化編輯器、編輯環境](#yellow_heart美化編輯器編輯環境)
     - [不可不擁有的、非常大推](#green_heart不可不擁有的非常大推)
-    - [透明化編輯器](#透明化編輯器)
-    - [大數據、AI 工程師 - Jupyter(Python)](#大數據ai-工程師---jupyter-python)
-    - [Git、Markdown 輔助](#gitmarkdown-輔助)
+    - [透明化編輯器](#snowflake透明化編輯器)
+    - [大數據、AI 工程師 - Jupyter(Python)](#star2大數據ai-工程師---jupyter-python)
+    - [Git、Markdown 輔助](#wavegitmarkdown-輔助)
     - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
-    - [修復器](#修復器-如果卸載vscode插件發生損毀請使用此插件修理)
+    - [修復器](#wrench修復器-如果卸載vscode插件發生損毀請使用此插件修理)
 
 ---
 
