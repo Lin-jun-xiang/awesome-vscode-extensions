@@ -237,22 +237,23 @@ The plugin provides the following features:
 > If you can understand Chinese, it is recommended to spend 5 minutes quickly learning how to use the Jupyter plugin (view <a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank">link</a>)
 
 > Usage:
-> * Download the following plugins (some may not be needed, but I forgot~)
-`Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
+> :bulb:Download the following plugins (some may not be needed, but I forgot~)
+> `Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
 ><img src="img/2023-03-17-21-50-07.png" width="40%">
 
-> * **Execute code in interactive mode**
+> :bulb:**Execute code in interactive mode**
 > 1. Right-click in the script.
-> 2. Select `Run Current File in Interactive Window` (It is recommended to set a VS Code shortcut key, I set it as `F10`).
+> 2. Select `Run Current File in Interactive Window`
+(It is recommended to set a VS Code shortcut key, I set it as `F10`).
 > 3. After execution, an `Interactive` window will appear.
 ><img src="img/2023-03-17-21-54-03.png" width="40%">
 ><img src="img/2023-03-17-21-57-03.png" width="40%">
 
-> * **View variable data types and variable values** (Need to be in interactive mode)
+> :bulb:**View variable data types and variable values** (Need to be in interactive mode)
 > Click *Variables* in the interactive window.
-><img src="img/2023-03-17-22-01-55.png" width="60%">
+><img src="img/2023-03-20-13-17.PNG" width="60%">
 
-> * **Execute line by line or partially**
+> :bulb:**Execute line by line or partially**
 > 1. Select the code to execute (can be one or more lines).
 > 2. Right-click the selected code.
 > 3. Select *Run Selection/Line in Interactive Window*.
