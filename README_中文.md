@@ -233,25 +233,34 @@ Mac: `cmd+shift+2`
 > 如果您聽得懂中文，建議可以花 5 分鐘快速了解 Jupyter 插件的用法 (觀看<a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank">連結</a>)
 
 > 使用方法:
-> :bulb:下載以下插件 (有些應該不用，但小弟忘記啦~)
-`Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
+>
+>:bulb:下載以下插件 (有些應該不用，但小弟忘記啦~)
+>
+>`Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
+>
 ><img src="img/2023-03-17-21-50-07.png" width="40%">
 
 > :bulb:**以交互模式執行代碼**
+> 
 > 1. 於腳本中滑鼠右鍵
 > 2. 選擇 `Run Current File in Interactive Window` (建議設置vscode快捷鍵，本人設置 `F10`)
 > 3. 執行完時，會出現 `Interactive` 視窗:
+> 
 ><img src="img/2023-03-17-21-54-03.png" width="40%">
 ><img src="img/2023-03-17-21-57-03.png" width="40%">
 
 > :bulb:**查看變數資料型態、變數值** (需處在交互模式中)
+> 
 > 點選交互視窗中的 `Variables`
+> 
 ><img src="img/2023-03-20-13-17.PNG" width="60%">
 
 > :bulb:**逐行執行、部分執行**
+> 
 > 1. 選取要執行的程式碼 (可以是一行或多行)
 > 2. 滑鼠右鍵
 > 3. 選擇 `Run Selection/Line in Interactive Window`
+> 
 ><img src="img/2023-03-17-22-04-33.png" width="60%">
 
 <a href="#top">Back to top</a>
