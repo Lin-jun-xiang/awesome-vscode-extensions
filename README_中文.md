@@ -200,7 +200,7 @@ Mac: `cmd+shift+2`
 
 ---
 
-## 透明化編輯器
+## :snowflake:透明化編輯器
 透明化特效就是牛
 可以成為工作偷懶神器 (邊看影片邊敲代碼~)
 可以搭配自己的桌布，邊看自己老婆邊敲代碼
@@ -217,7 +217,7 @@ Mac: `cmd+shift+2`
 
 ---
 
-## 大數據、AI 工程師 - Jupyter (Python)
+## :star2:大數據、AI 工程師 - Jupyter (Python)
 這邊要介紹的插件真的很屌!
 作者認識很多玩 `Python` 的人不習慣使用 vscode，很多原因都是:
 * Vscode 不像 Spyder, Pycharm 一樣，可以方便的察看數據表 (尤其很愛用 `DataFrame` 的人)
@@ -225,23 +225,23 @@ Mac: `cmd+shift+2`
 * 希望以交互模式執行代碼
 
 該插件提共了以下功能:
-* **交互模式**
-* 查看變數資料型態、變數值 (就如同 spyder, pycharm 一樣)
-* **逐行執行程式**、**部分執行程式碼** (這個功能真的很實用，比Debug還好用~:heart_eyes:)
+* :pushpin:**交互模式**
+* :pushpin:**查看變數資料型態、變數值** (就如同 spyder, pycharm 一樣)
+* :pushpin:**逐行執行程式**、**部分執行程式碼** (這個功能真的很實用，比Debug還好用~:heart_eyes:)
 
 > 如果您聽得懂中文，建議可以花 5 分鐘快速了解 Jupyter 插件的用法 (觀看<a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank">連結</a>)
 
 > 使用方法:
 > * 下載以下插件 (有些應該不用，但小弟忘記啦~)
 `Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
-><img src="img/2023-03-17-21-50-07.png" width="60%">
+><img src="img/2023-03-17-21-50-07.png" width="40%">
 
 > * **以交互模式執行代碼**
 > 1. 於腳本中滑鼠右鍵
 > 2. 選擇 `Run Current File in Interactive Window` (建議設置vscode快捷鍵，本人設置 `F10`)
 > 3. 執行完時，會出現 `Interactive` 視窗:
-><img src="img/2023-03-17-21-54-03.png" width="60%">
-><img src="img/2023-03-17-21-57-03.png" width="60%">
+><img src="img/2023-03-17-21-54-03.png" width="40%">
+><img src="img/2023-03-17-21-57-03.png" width="40%">
 
 > * **查看變數資料型態、變數值** (需處在交互模式中)
 > 點選交互視窗中的 `Variables`
@@ -257,7 +257,7 @@ Mac: `cmd+shift+2`
 
 ---
 
-## Git、Markdown 輔助
+## :wave:Git、Markdown 輔助
 接下來介紹的插件，如果您也是個 Github, Gitlab 專案開發者，您一定要看~
 
 ### GitLens
@@ -278,7 +278,7 @@ Mac: `cmd+shift+2`
 
 ---
 
-## 修復器 (如果卸載vscode插件發生損毀，請使用此插件修理)
+## :wrench:修復器 (如果卸載vscode插件發生損毀，請使用此插件修理)
 有時候卸載插件時，vscode右下角會跳出錯誤，透過以下方法可以解決問題
 
 > 使用方式:
