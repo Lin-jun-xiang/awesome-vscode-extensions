@@ -5,13 +5,14 @@
 
 
 - 插件大綱
-    - [快速下載多個插件](#star快速下載多個插件-請先看這邊)
+    - [快速下載多個插件 (請先看這邊)](#star快速下載多個插件-請先看這邊)
     - [主題 Theme](#purple_heart主題-theme)
     - [美化編輯器、編輯環境](#yellow_heart美化編輯器編輯環境)
     - [不可不擁有的、非常大推](#green_heart不可不擁有的非常大推)
     - [透明化編輯器](#透明化編輯器)
     - [大數據、AI 工程師 - Jupyter(Python)](#大數據ai-工程師---jupyter-python)
     - [Git、Markdown 輔助](#gitmarkdown-輔助)
+    - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
     - [修復器](#修復器-如果卸載vscode插件發生損毀請使用此插件修理)
 
 ---
@@ -277,6 +278,30 @@ Mac: `cmd+shift+2`
 <a href="#top">Back to top</a>
 
 ---
+
+## :computer: Remote WSL & Dev Container
+
+### Remote WSL
+* vscode 將以 `Windows Subsystem Linux` 環境開啟
+* 能夠在 vscode 編輯器下編輯 `WSL` 內部檔案 (不必再使用 `vim` or `nano` 編輯)
+
+> 使用方式:
+> 1. `ctrl+shift+p`: 打開命令
+> 2. `WSL: New WSL Window`: 在 vscode 中開啟 `WSL` 環境
+
+<img src="img/2023-03-20-11-47-42.png" width="60%">
+
+### Dev-Container
+* 藉由 `Docker` 的幫助，可以讓整個在 vscode 內的開發環境都執行在容器中，包括 vscode 內的編輯、終端、除錯與執行等。
+
+* 可以在一個只安裝 `Docker` 與 vscode 的環境下，使用最舒適的方式進行各種開發作業，像是 `Node.js`, `Python`, `Java` 等，而不需要再去安裝對應的執行、編譯軟體。
+
+<img src="img/2023-03-20-11-48-43.png" width="60%">
+
+<a href="#top">Back to top</a>
+
+---
+
 
 ## :wrench:修復器 (如果卸載vscode插件發生損毀，請使用此插件修理)
 有時候卸載插件時，vscode右下角會跳出錯誤，透過以下方法可以解決問題

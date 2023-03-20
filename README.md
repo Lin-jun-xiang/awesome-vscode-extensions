@@ -6,13 +6,14 @@
 * Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
 * This project will provide detailed usage instructions for each extension, with the hope of helping coders all over the world to code happily together :sunglasses:
 * Outline of extensions:
-    - [Quickly download multiple extensions](#starquickly-download-multiple-extensions-please-read-this-first)
+    - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions-please-read-this-first)
     - [Theme](#purple_hearttheme)
     - [Editor and environment beautification](#yellow_heart-beautifying-editor-and-editing-environment)
     - [Must-haves and highly recommended](#green_heart-must-have-highly-recommended)
     - [Transparent editor](#snowflaketransparent-editor)
     - [Big data and AI engineer - Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
     - [Git and Markdown assistants](#wavegitmarkdown-support)
+    - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
     - [Fixer](#wrenchfixer-if-uninstalling-a-vs-code-plugin-causes-damage-use-this-plugin-to-repair-it)
 ---
 
@@ -277,6 +278,29 @@ The plugins introduced below are essential for developers working on Github or G
 * The middle of the figure below shows the `.md` file, and the right side shows the preview window.
 
 <img src="img/2023-03-17-22-15-20.png" width="60%">
+
+<a href="#top">Back to top</a>
+
+---
+
+## :computer: Remote WSL & Dev Container
+
+### Remote WSL
+* vscode will open in the `Windows Subsystem Linux` environment.
+* You can edit files within the `WSL` environment in the vscode editor without using `vim` or `nano`.
+
+> Usage:
+> 1. `ctrl+shift+p`: open the command palette.
+> 2. `WSL: New WSL Window`: open the `WSL` environment within vscode.
+
+<img src="img/2023-03-20-11-47-42.png" width="60%">
+
+### Dev-Container
+* With the help of `Docker`, the entire development environment within vscode can run in a container, including editing, terminal, debugging, and execution.
+
+* You can perform various development tasks such as `Node.js`, `Python`, `Java`, etc. in the most comfortable way within an environment with only `Docker` and vscode installed, without the need to install corresponding runtime and compilation software.
+
+<img src="img/2023-03-20-11-48-43.png" width="60%">
 
 <a href="#top">Back to top</a>
 
