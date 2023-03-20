@@ -19,7 +19,7 @@
 ## :star:Quickly download multiple extensions (please read this first)
 Later, we will introduce a lot of vscode extensions. Here is a trick that can quickly download many extensions without having to look for them one by one.
 
-If you want to transfer extensions from an old computer to a new one in the future, you can also use this method ~:kissing:
+If you want to transfer extensions from an old computer to a new one in the future, you can also use this method:kissing:
 
 * You can download the `.ps1` file attached to this project and exclude the extensions you don't need by following step three below.
 * In the `extensions.ps1` file, each extension is annotated. Please delete the ones you don't need before executing the installation command.
@@ -155,7 +155,7 @@ After decorating our editor, the plugins we are going to introduce can not only 
 ## :green_heart: Must-have, highly recommended
 The plugins to be introduced below are really easy to use!
 
-The vast majority of them can improve development efficiency, so don't miss them if you happen to come across them:heart_eyes:
+The vast majority of them can improve development efficiency, so don't miss them:heart_eyes:
 
 ### Code Runner
 * I believe that those who use VSCode should not be unfamiliar with this plugin!?
@@ -226,12 +226,12 @@ The plugin introduced here is really awesome!
 The author knows many people who use Python are not used to using vscode, and there are many reasons:
 * Interactive mode
 * View variable data types and variable values (just like in Spyder, Pycharm)
-* Execute code line by line and execute part of the code (this function is really practical, even better than Debug~:heart_eyes:)
+* Execute code line by line and execute part of the code (really practical, even better than Debug~:heart_eyes:)
 
 The plugin provides the following features:
 * :pushpin:**Interactive mode**
 * :pushpin:**View variable data types and variable values** (just like in Spyder, Pycharm)
-* :pushpin:**Execute code line by line** and **execute part of the code** (this function is really practical, even better than Debug~:heart_eyes:)
+* :pushpin:**Execute code line by line** and **execute part of the code** (really practical, even better than Debug~:heart_eyes:)
 
 > If you can understand Chinese, it is recommended to spend 5 minutes quickly learning how to use the Jupyter plugin (view <a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank">link</a>)
 
