@@ -215,7 +215,7 @@ You can use your own desktop background while coding and watching your wife.
 `ctrl+alt+z`: decrease saturation (transparent)
 `ctrl+alt+c`: increase saturation (opaque)
 
-<img src="img/2023-03-17-21-25-27.png" width="60%">
+<img src="img/2023-03-20-20-35-03.png" width="60%">
 
 <a href="#top">Back to top</a>
 

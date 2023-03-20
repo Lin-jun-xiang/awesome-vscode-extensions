@@ -212,7 +212,7 @@ Mac: `cmd+shift+2`
 `ctrl+alt+z`: 調低飽和度 (透明)
 `ctrl+alt+c`: 調高飽和度 (不透明)
 
-<img src="img/2023-03-17-21-25-27.png" width="60%">
+<img src="img/2023-03-20-20-35-03.png" width="60%">
 
 <a href="#top">Back to top</a>
 
