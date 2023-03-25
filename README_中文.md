@@ -55,6 +55,11 @@
 
 <img src="img/2023-03-17-14-36-15.png" width="60%">
 
+### Arc Dark for Visual Studio Code
+* 與 vscode 本身的黑暗主題有點相似，但是整體色調更溫和，非常像馬卡龍
+
+<img src="img/2023-03-25-16-10-51.png" width="60%">
+
 ### Coder200
 * 這次看名字，完全毫無想法了...
 * 非常罕見的主題，充滿著*橘橙色*，so sexy~:flushed:

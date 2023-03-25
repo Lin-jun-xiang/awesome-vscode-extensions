@@ -55,6 +55,11 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 
 <img src="img/2023-03-17-14-36-15.png" width="60%">
 
+### Arc Dark for Visual Studio Code
+* The theme is somewhat similar to the dark theme of Visual Studio Code, but with softer overall tones that resemble the colors of macarons.
+
+<img src="img/2023-03-25-16-10-51.png" width="60%">
+
 ### Coder200
 * This time, I have absolutely no idea just by looking at the name...
 * A very rare theme, filled with *orange* color, so sexy~ :flushed:
