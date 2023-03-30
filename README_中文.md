@@ -286,6 +286,7 @@ Mac: `cmd+shift+2`
 * 編寫 `.md` 檔案時，可以預瀏覽結果
 * `ctrl+k` 接著 `v`，打開預覽畫面
 * 下圖中間是 `.md` 檔案，右邊則是預覽畫面
+* 有關 Markdown 語法可參考此<a href="https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FBVqowKshRH246Q7UDyodFA?type=book" target="_blank">連結</a>
 
 <img src="img/2023-03-17-22-15-20.png" width="60%">
 
