@@ -1,6 +1,7 @@
 # vscode-extensions [Best]
 * [中文版README.md](README_中文.md)
 
+* Click the ⭐ Star button on this project to support and motivate the developer.
 ---
 
 * Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
