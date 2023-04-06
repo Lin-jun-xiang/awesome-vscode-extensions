@@ -1,4 +1,5 @@
 * 點選該專案 ⭐Star，給予開發者支持與動力
+* 任何問題皆可於 "Discussions" 討論
 
 # vscode-extensions 必備插件
 
