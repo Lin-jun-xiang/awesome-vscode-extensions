@@ -11,10 +11,10 @@
 * This project will provide detailed usage instructions for each extension, with the hope of helping coders all over the world to code happily together :sunglasses:
 * Outline of extensions:
     - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions-please-read-this-first)
+    - [Transparent editor](#snowflaketransparent-editor)
     - [Theme](#purple_hearttheme)
     - [Editor and environment beautification](#yellow_heart-beautifying-editor-and-editing-environment)
     - [Must-haves and highly recommended](#green_heart-must-have-highly-recommended)
-    - [Transparent editor](#snowflaketransparent-editor)
     - [Big data and AI engineer - Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
     - [Git and Markdown assistants](#wavegitmarkdown-support)
     - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
@@ -37,6 +37,25 @@ If you want to transfer extensions from an old computer to a new one in the futu
 > `.\extensions.ps1`
 > 4. Download completed
 > <img src="https://user-images.githubusercontent.com/63782903/226086537-1dddd375-3206-44db-8208-17715d70c744.png" width="60%">
+
+---
+
+## :snowflake:Transparent editor
+Transparent effects are awesome.
+
+It can be a work lazy tool (code while watching videos~).
+
+You can use your own desktop background while coding and watching your wife.
+
+### GlassIt-VSC
+
+> Usage:
+`ctrl+alt+z`: decrease saturation (transparent)
+`ctrl+alt+c`: increase saturation (opaque)
+
+<img src="img/2023-03-20-20-35-03.png" width="60%">
+
+<a href="#top">Back to top</a>
 
 ---
 
@@ -206,25 +225,6 @@ Mac: `cmd+shift+2`
 * When writing a path, it will automatically list the files under the path you are looking for.
 
 <img src="img/2023-03-17-21-17-09.png" width="60%">
-
-<a href="#top">Back to top</a>
-
----
-
-## :snowflake:Transparent editor
-Transparent effects are awesome.
-
-It can be a work lazy tool (code while watching videos~).
-
-You can use your own desktop background while coding and watching your wife.
-
-### GlassIt-VSC
-
-> Usage:
-`ctrl+alt+z`: decrease saturation (transparent)
-`ctrl+alt+c`: increase saturation (opaque)
-
-<img src="img/2023-03-20-20-35-03.png" width="60%">
 
 <a href="#top">Back to top</a>
 
