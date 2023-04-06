@@ -1,5 +1,6 @@
 # vscode-extensions [Best]
 * [中文版README.md](README_中文.md)
+* Any questions can be asked in the "discussion" section
 
 * Click the ⭐ Star button on this project to support and motivate the developer.
 ---
