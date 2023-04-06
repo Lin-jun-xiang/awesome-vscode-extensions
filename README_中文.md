@@ -9,10 +9,10 @@
 
 - 插件大綱
     - [快速下載多個插件 (請先看這邊)](#star快速下載多個插件-請先看這邊)
+    - [透明化編輯器](#snowflake透明化編輯器)
     - [主題 Theme](#purple_heart主題-theme)
     - [美化編輯器、編輯環境](#yellow_heart美化編輯器編輯環境)
     - [不可不擁有的、非常大推](#green_heart不可不擁有的非常大推)
-    - [透明化編輯器](#snowflake透明化編輯器)
     - [大數據、AI 工程師 - Jupyter(Python)](#star2大數據ai-工程師---jupyter-python)
     - [Git、Markdown 輔助](#wavegitmarkdown-輔助)
     - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
@@ -36,6 +36,23 @@
 > `.\extensions.ps1`
 > 4. 下載完成
 > <img src="https://user-images.githubusercontent.com/63782903/226086557-e4ed3105-2c01-40fb-b79d-23afe572d73b.png" width="60%">
+
+---
+
+## :snowflake:透明化編輯器
+透明化特效就是牛
+可以成為工作偷懶神器 (邊看影片邊敲代碼~)
+可以搭配自己的桌布，邊看自己老婆邊敲代碼
+
+### GlassIt-VSC
+
+> 使用方式:
+`ctrl+alt+z`: 調低飽和度 (透明)
+`ctrl+alt+c`: 調高飽和度 (不透明)
+
+<img src="img/2023-03-20-20-35-03.png" width="60%">
+
+<a href="#top">Back to top</a>
 
 ---
 
@@ -204,23 +221,6 @@ Mac: `cmd+shift+2`
 * 寫路徑時，會自動列出您尋找路徑下的檔案
 
 <img src="img/2023-03-17-21-17-09.png" width="60%">
-
-<a href="#top">Back to top</a>
-
----
-
-## :snowflake:透明化編輯器
-透明化特效就是牛
-可以成為工作偷懶神器 (邊看影片邊敲代碼~)
-可以搭配自己的桌布，邊看自己老婆邊敲代碼
-
-### GlassIt-VSC
-
-> 使用方式:
-`ctrl+alt+z`: 調低飽和度 (透明)
-`ctrl+alt+c`: 調高飽和度 (不透明)
-
-<img src="img/2023-03-20-20-35-03.png" width="60%">
 
 <a href="#top">Back to top</a>
 
