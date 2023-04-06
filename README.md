@@ -45,7 +45,7 @@ Transparent effects are awesome.
 
 It can be a work lazy tool (code while watching videos~).
 
-You can use your own desktop background while coding and watching your wife.
+You can use your own desktop background while coding and watching **Gura**.
 
 ### GlassIt-VSC
 
