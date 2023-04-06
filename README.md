@@ -1,4 +1,6 @@
 # vscode-extensions [Best]
+![Repository Views](https://img.shields.io/github/watchers/Lin-jun-xiang/vscode-extensions-best.svg?color=ff69b4&label=Views)
+
 * [中文版README.md](README_中文.md)
 * Any questions can be asked in the "discussion" section
 
