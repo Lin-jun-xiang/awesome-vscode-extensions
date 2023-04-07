@@ -1,6 +1,7 @@
 # vscode-extensions [Best]
 <image src="https://img.shields.io/github/watchers/Lin-jun-xiang/vscode-extensions-best?color=ff69b4&style=social&label=" />
 <img src="https://komarev.com/ghpvc/?username=Lin-jun-xiang&color=blue&label=views" alt=""/>
+
 * [中文版README.md](README_中文.md)
 * Any questions can be asked in the "discussion" section
 
