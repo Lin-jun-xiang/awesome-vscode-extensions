@@ -3,7 +3,7 @@
 <img src="https://komarev.com/ghpvc/?username=Lin-jun-xiang&color=blue&label=views" alt=""/>
 
 * [中文版README.md](README_中文.md)
-* Any questions can be asked in the "discussion" section
+* Any questions can be asked in the "Discussion" section
 
 * Click the ⭐ Star button on this project to support and motivate the developer.
 ---
