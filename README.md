@@ -1,6 +1,8 @@
+[<img align="right" width="150" alt="🦑" src="https://count.getloli.com/get/@:Lin-jun-xiangtheme=rule34">](https://www.youtube.com/watch?v=PqXPW0oBKgg)
+
 # vscode-extensions [Best]
 
-<img src="https://komarev.com/ghpvc/?username=Lin-jun-xiang&color=blue&label=views" alt=""/>
+
 
 * [中文版README.md](README_中文.md)
 * Any questions can be asked in the "Discussion" section
