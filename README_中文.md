@@ -1,5 +1,8 @@
-* 點選該專案 ⭐Star，給予開發者支持與動力
-* 任何問題皆可於 "Discussions" 討論
+
+<div>
+    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=25&color=f75c7e&center=True&width=1200&lines=點選+⭐+Star+給予+開發者+支持;任何問題+皆可於+Disccusion+討論!" />
+</div>
+
 
 # vscode-extensions 必備插件
 
