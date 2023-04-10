@@ -2,12 +2,12 @@
 
 # vscode-extensions [Best]
 
-
+<div>
+    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=25&color=f75c7e&center=True&width=1200&lines=Click+the+⭐+Star+for+this+project+to+support+and+motivate+the+developer.;Any+questions+can+be+asked+in+Discussion." />
+</div>
 
 * [中文版README.md](README_中文.md)
-* Any questions can be asked in the "Discussion" section
 
-* Click the ⭐ Star button on this project to support and motivate the developer.
 ---
 
 * Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
