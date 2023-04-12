@@ -21,7 +21,7 @@
     - [Big data and AI engineer - Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
     - [Git and Markdown assistants](#wavegitmarkdown-support)
     - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
-    - [Fixer](#wrenchfixer-if-uninstalling-a-vs-code-plugin-causes-damage-use-this-plugin-to-repair-it)
+    - [Fixer](#wrenchfixer-fix-vscode-corrupt)
 ---
 
 ## :star:Quickly download multiple extensions (please read this first)
@@ -328,8 +328,12 @@ The plugins introduced below are essential for developers working on Github or G
 
 ---
 
-## :wrench:Fixer (If uninstalling a VS Code plugin causes damage, use this plugin to repair it)
-Sometimes, when uninstalling a plugin, an error message appears in the lower right corner of the VS Code window. You can solve this problem using the following method.
+## :wrench:Fixer (Fix Vscode Corrupt)
+Sometimes, when uninstalling a plugin, an error message appears in the lower right corner of the VS Code window as following:
+
+<img src="https://user-images.githubusercontent.com/63782903/231321298-916da9d3-0e90-4bd5-bfc6-859371545ec7.png" width="60%" />
+
+You can solve this problem using the following method:
 
 > Usage:
 > 1. Download the Fix VSCode Checksums plugin.
