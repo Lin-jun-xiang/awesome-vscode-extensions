@@ -324,7 +324,11 @@ Mac: `cmd+shift+2`
 
 
 ## :wrench:修復器 (如果卸載vscode插件發生損毀，請使用此插件修理)
-有時候卸載插件時，vscode右下角會跳出錯誤，透過以下方法可以解決問題
+有時候卸載插件時，vscode右下角會跳出錯誤，如下:
+
+<img src="https://user-images.githubusercontent.com/63782903/231321130-69289fa6-8de6-48c5-b503-eed38959eca6.png" width="60%" />
+
+透過以下方法可以解決問題:
 
 > 使用方式:
 > 1. 下載 `Fix VSCode Checksums` 插件
