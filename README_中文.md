@@ -19,6 +19,7 @@
     - [Git、Markdown 輔助](#wavegitmarkdown-輔助)
     - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
     - [修復器](#wrench修復器-如果卸載vscode插件發生損毀請使用此插件修理)
+    - [網友分享與投稿 - 有趣](./share/README_%E4%B8%AD%E6%96%87.md)
 
 ---
 
