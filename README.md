@@ -12,6 +12,8 @@
 
 * Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
 * This project will provide detailed usage instructions for each extension, with the hope of helping coders all over the world to code happily together :sunglasses:
+* This project provides a ["**extensions sharing area**"](./share/README.md), where anyone can submit interesting extensions.
+
 * Outline of extensions:
     - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions-please-read-this-first)
     - [Transparent editor](#snowflaketransparent-editor)
