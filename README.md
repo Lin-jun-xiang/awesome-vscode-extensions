@@ -22,6 +22,7 @@
     - [Git and Markdown assistants](#wavegitmarkdown-support)
     - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
     - [Fixer](#wrenchfixer-fix-vscode-corrupt)
+    - [Sharing and Contributing by Community](./share/README.md)
 ---
 
 ## :star:Quickly download multiple extensions (please read this first)
