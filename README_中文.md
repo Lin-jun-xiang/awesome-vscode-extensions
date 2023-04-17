@@ -139,6 +139,11 @@
 
 <img src="img/2023-03-17-20-33-32.png" width="60%">
 
+### doom-emacs-theme
+* 簡約風格
+
+<image src="https://user-images.githubusercontent.com/63782903/232356902-fc57dbc3-f650-4c41-b5a6-f33497954cc7.png" width="60%" />
+
 ### Xcode Theme
 * 經典主題之一，不敢忽略
 
