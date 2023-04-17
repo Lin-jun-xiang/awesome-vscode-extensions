@@ -145,6 +145,11 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 
 <img src="img/2023-03-17-20-33-32.png" width="60%">
 
+### doom-emacs-theme
+* Simple style
+
+<image src="https://user-images.githubusercontent.com/63782903/232356902-fc57dbc3-f650-4c41-b5a6-f33497954cc7.png" width="60%" />
+
 ### Xcode Theme
 * One of the classic themes, cannot be ignored
 
