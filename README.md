@@ -6,7 +6,7 @@
     <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please.;Any+questions+can+be+asked+in+Issue." />
 </div>
 
-* [中文版README.md](README_中文.md)
+[中文版README.md](README_中文.md)
 
 <details>
 <summary>Vscode Common Commands</summary>
