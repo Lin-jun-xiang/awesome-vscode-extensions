@@ -3,6 +3,24 @@
     <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=點選+⭐+Star+給予+開發者+支持;任何問題+皆可於+Issue+討論!" />
 </div>
 
+
+<details>
+<summary>Vscode常用命令</summary>
+
+* 使用 vscode 命令輸入框，可以提升開發速度
+
+* 開始命令輸入框方式: `ctrl+shift+p`
+
+* 常用命令:
+    * `File: Open Folder`: 開始專案資料夾
+    * `Preferences: Color Theme`: 選擇主題
+    * `Preferences: File Icon Theme`: 選擇 Icon 主題
+    * `Developer: Reload Window`: 重整 vscode 視窗
+
+</details>
+
+---
+
 # vscode-extensions 必備插件
 
 * 紀錄與分享 vscode 插件，包含提升*開發效率、不可不擁有的、美化主題(theme)環境*...等

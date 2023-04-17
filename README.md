@@ -8,6 +8,21 @@
 
 * [中文版README.md](README_中文.md)
 
+<details>
+<summary>Vscode Common Commands</summary>
+
+* Using the vscode command palette can improve development speed.
+
+* Open the command palette: `ctrl+shift+p`
+
+* 常用命令:
+    * `File: Open Folder`: Open a folder as a workspace.
+    * `Preferences: Color Theme`: Choose a color theme for the editor.
+    * `Preferences: File Icon Theme`: Choose an icon theme for the files.
+    * `Developer: Reload Window`: Reload the VSCode window.
+
+</details>
+
 ---
 
 * Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
