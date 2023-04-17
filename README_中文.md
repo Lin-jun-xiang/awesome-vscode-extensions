@@ -1,6 +1,6 @@
 
 <div>
-    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=點選+⭐+Star+給予+開發者+支持;任何問題+皆可於+Disccusion+討論!" />
+    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=點選+⭐+Star+給予+開發者+支持;任何問題+皆可於+Issue+討論!" />
 </div>
 
 # vscode-extensions 必備插件
