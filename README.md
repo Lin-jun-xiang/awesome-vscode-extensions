@@ -15,7 +15,7 @@
 
 * Open the command palette: `ctrl+shift+p`
 
-* 常用命令:
+* Common Commands:
     * `File: Open Folder`: Open a folder as a workspace.
     * `Preferences: Color Theme`: Choose a color theme for the editor.
     * `Preferences: File Icon Theme`: Choose an icon theme for the files.
