@@ -68,9 +68,11 @@
 * 使用方式 (二選一):
     * `compare.py`
         執行 `python` 腳本即可
+        
         ![](./img/2023-04-19-11-06-37.png)
     * `compare.sh`
         於 `git bash`, `wsl` or `linux`...等，執行 `./extensions_compare/compare.sh`
+
         ![](./img/2023-04-19-11-07-16.png)
 </details>
 

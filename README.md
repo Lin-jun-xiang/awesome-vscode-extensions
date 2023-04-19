@@ -69,10 +69,11 @@ If you want to transfer extensions from an old computer to a new one in the futu
 * Usage (choose one of the following):
     * `compare.py`
         Run the `Python` script.
+
         ![](./img/2023-04-19-11-06-37.png)
     * `compare.sh`
         Run `./extensions_compare/compare.sh` on `git bash, wsl, or linux`, etc.
-        `compare.sh`
+
         ![](./img/2023-04-19-11-07-16.png)
 </details>
 
