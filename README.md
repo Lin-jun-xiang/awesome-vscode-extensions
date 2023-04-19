@@ -59,6 +59,23 @@ If you want to transfer extensions from an old computer to a new one in the futu
 > 4. Download completed
 > <img src="https://user-images.githubusercontent.com/63782903/226086537-1dddd375-3206-44db-8208-17715d70c744.png" width="60%">
 
+<details>
+<summary>Missing Extensions</summary>
+
+* [`extensions-compare`](./extensions_compare/)
+
+* Compare two `.ps` files and find the **difference** between the two extension records.
+
+* Usage (choose one of the following):
+    * `compare.py`
+        Run the `Python` script.
+        ![](./img/2023-04-19-11-06-37.png)
+    * `compare.sh`
+        Run `./extensions_compare/compare.sh` on `git bash, wsl, or linux`, etc.
+        `compare.sh`
+        ![](./img/2023-04-19-11-07-16.png)
+</details>
+
 ---
 
 ## :snowflake:Transparent editor

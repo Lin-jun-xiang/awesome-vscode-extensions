@@ -58,6 +58,22 @@
 > 4. 下載完成
 > <img src="https://user-images.githubusercontent.com/63782903/226086557-e4ed3105-2c01-40fb-b79d-23afe572d73b.png" width="60%">
 
+<details>
+<summary>插件漏失</summary>
+
+* [`extensions-compare`](./extensions_compare/)
+
+* 判斷兩個 `.ps` 檔案差異，找出兩個插件紀錄檔案的 **差集**
+
+* 使用方式 (二選一):
+    * `compare.py`
+        執行 `python` 腳本即可
+        ![](./img/2023-04-19-11-06-37.png)
+    * `compare.sh`
+        於 `git bash`, `wsl` or `linux`...等，執行 `./extensions_compare/compare.sh`
+        ![](./img/2023-04-19-11-07-16.png)
+</details>
+
 ---
 
 ## :snowflake:透明化編輯器
