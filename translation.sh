@@ -20,6 +20,7 @@ get_inline_code() {
 
 while IFS= read -r file; do
     if [[ $file == *"README.md" ]]; then
+    echo "Checkout $file now."
         if [[ $(git diff --name-only HEAD~1 HEAD -- "$file") ]]; then
             echo "There are changes in $file."
 
