@@ -24,7 +24,7 @@
 
 ---
 
-* 記錄和分享vscode擴展，包括提升開發效率、必備、主題美化等.
+* 記錄分享vscode擴展，包括提升開發效率、必備、主題美化等.
 * 本項目將為每個擴展提供詳細的使用說明，希望能幫助全世界的碼友們一起愉快地碼字:sunglasses:
 * 本項目提供["**擴展分享區**"](./share/README.md)，任何人都可以在這裡提交感興趣的擴展.
 * 如果你想**拉取請求**，只需更新 `README.md`
@@ -87,7 +87,7 @@
 ---
 
 ## :snowflake:Transparent editor
-透明效果棒棒噠.
+透明效果很贊.
 
 可以當個懶人工具（邊看視頻邊碼字~）.
 
@@ -107,9 +107,9 @@
 
 ## :purple_heart:Theme
 
-使用vscode最大的原因就是要有`eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. 只有好看的編輯環境才能讓coder們願意敲鍵盤~:sunglasses:
+使用vscode最大的原因就是要有`eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. 只有好看的編輯環境才能讓coder願意敲鍵盤~:sunglasses:
 
-接下來筆者將自己喜歡的主題一一分享給大家（以下示例均基於Python，不同語言可能略有差異）
+接下來，筆者將他最喜歡的主題一一分享給大家（以下示例均基於Python，不同語言可能略有差異）
 
 哦！稍等一下，這裡有一個快速切換主題的方法.畢竟你可能每天都想換主題~~
 
@@ -133,7 +133,7 @@
 
 ### Coder200
 * 這次光看名字就完全不知道了...
-* 難得一見的主題，滿滿的*橙色*，好性感~:flushed:
+* 非常難得的主題，滿滿的*橙色*，好性感~:flushed:
 
 <img src="img/2023-03-17-14-44-30.png" width="60%">
 
@@ -169,7 +169,7 @@
 <img src="img/2023-03-17-20-36-31.png" width="60%">
 
 ### Panda Theme
-* *湖綠* :panda_face: 的一流主題:
+* 頂級主題 *湖綠* :panda_face:
 * 這個主題真不錯！
 
 <img src="img/2023-03-17-20-21-23.png" width="60%">
@@ -291,7 +291,7 @@ Windows:`ctrl+shift+2`
 這裡介紹的插件真的很給力！
 
 筆者知道很多使用Python的人都不習慣使用vscode，原因有很多:
-* 交互模式
+* 互動模式
 * 查看變量數據類型和變量值（就像在Spyder、Pycharm中一樣）
 * 逐行執行代碼，執行部分代碼（真的很實用，比Debug還厲害~:heart_eyes:)
 
@@ -343,7 +343,7 @@ Windows:`ctrl+shift+2`
 
 ### GitLens
 * 下載後，腳本代碼會顯示**哪些**部分被**修改**，**誰**做了修改，**何時**修改了.
-* 注意屏幕右側的代碼. `170`行有一條綠線，表示有新增代碼記錄（紅色表示刪除代碼）.
+* 注意屏幕右側的代碼.`170`行有一條綠線表示有新增代碼的記錄（紅色表示刪除代碼）.
 * 請記住使用 `git` 跟踪項目以使該插件工作.
 
 <img src="img/2023-03-17-22-08-15.png" width="60%">
@@ -373,7 +373,7 @@ Windows:`ctrl+shift+2`
 <img src="img/2023-03-20-11-47-42.png" width="60%">
 
 ### Dev-Container
-* 借助`Docker`，vscode內部的整個開發環境都可以在容器中運行，包括編輯、終端、調試、執行.
+* 借助`Docker`，vscode內部的整個開發環境都可以在一個容器中運行，包括編輯、終端、調試、執行.
 
 * `Node.js`, `Python`, `Java`, etc. 等各種開發任務，只需要安裝`Docker`和vscode，就可以在只安裝%_inlinecode_%和vscode的環境中，以最舒適的方式進行，無需安裝相應的runtime和編譯軟件.
 
