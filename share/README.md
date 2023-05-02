@@ -1,7 +1,5 @@
 ## Sharing and Contributing by Community
 
-* Testing.
-
 * Anyone can share interesting and useful extensions in "**Discussions**".
 
 * Anyone can post interesting and useful extensions in "`share/README_Chinese.md`" through **Pull Requests**.
