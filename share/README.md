@@ -19,4 +19,3 @@
 * Can also create your own custom effects.
 
   <image src="https://user-images.githubusercontent.com/130225999/231623769-d86a09e8-1611-4b38-a6ba-c87aea9bd13f.png" width="60%" />
- 
