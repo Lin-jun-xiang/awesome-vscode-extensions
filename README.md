@@ -27,6 +27,7 @@
 * Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
 * This project will provide detailed usage instructions for each extension, with the hope of helping coders all over the world to code happily together :sunglasses:
 * This project provides a ["**extensions sharing area**"](./share/README.md), where anyone can submit interesting extensions.
+* If you want to **"Pull Requests"**, just update `README.md` that `README.zh-TW.md` will auto update via [action](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main)
 
 * Outline of extensions:
     - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions)
@@ -116,6 +117,11 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 >
 > "Preferences: Color Theme": Enter and select the theme you want
 
+### Arc Dark for Visual Studio Code
+* The theme is somewhat similar to the dark theme of Visual Studio Code, but with softer overall tones that resemble the colors of macarons.
+
+<img src="img/2023-03-25-16-10-51.png" width="60%">
+
 ### ButterTheme
 * As its name suggests, it is a non-eye-straining *cream yellow* theme
 * A very rare theme (to put it bluntly, not many people use it), but the author loves it
@@ -123,16 +129,17 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 
 <img src="img/2023-03-17-14-36-15.png" width="60%">
 
-### Arc Dark for Visual Studio Code
-* The theme is somewhat similar to the dark theme of Visual Studio Code, but with softer overall tones that resemble the colors of macarons.
-
-<img src="img/2023-03-25-16-10-51.png" width="60%">
-
 ### Coder200
 * This time, I have absolutely no idea just by looking at the name...
 * A very rare theme, filled with *orange* color, so sexy~ :flushed:
 
 <img src="img/2023-03-17-14-44-30.png" width="60%">
+
+
+### doom-emacs-theme
+* Simple style
+
+<image src="https://user-images.githubusercontent.com/63782903/232356902-fc57dbc3-f650-4c41-b5a6-f33497954cc7.png" width="60%" />
 
 ### Dracula Official
 * Very well-known, with a vampire color of *pink* and *purple*
@@ -148,6 +155,18 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 * A gentle and eye-friendly theme
 
 <img src="img/2023-03-17-20-20-13.png" width="60%">
+
+### Material Dark
+* One of the classic themes, cannot be ignored
+
+<img src="img/2023-03-17-20-37-24.png" width="60%">
+
+<a href="#top">Back to top</a>
+
+### One Dark Pro
+* One of the classic themes, cannot be ignored
+
+<img src="img/2023-03-17-20-36-31.png" width="60%">
 
 ### Panda Theme
 * A top-notch theme with *lake green* :panda_face:
@@ -187,27 +206,11 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 
 <img src="img/2023-03-17-20-33-32.png" width="60%">
 
-### doom-emacs-theme
-* Simple style
-
-<image src="https://user-images.githubusercontent.com/63782903/232356902-fc57dbc3-f650-4c41-b5a6-f33497954cc7.png" width="60%" />
-
 ### Xcode Theme
 * One of the classic themes, cannot be ignored
 
 <img src="img/2023-03-17-20-35-39.png" width="60%">
 
-### One Dark Pro
-* One of the classic themes, cannot be ignored
-
-<img src="img/2023-03-17-20-36-31.png" width="60%">
-
-### Material Dark
-* One of the classic themes, cannot be ignored
-
-<img src="img/2023-03-17-20-37-24.png" width="60%">
-
-<a href="#top">Back to top</a>
 
 ---
 ## :yellow_heart: Beautifying editor and editing environment
