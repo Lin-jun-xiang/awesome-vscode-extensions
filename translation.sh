@@ -18,7 +18,7 @@ get_inline_code() {
     echo "$translated"$'\n'
 }
 
-while IFS= read -r file; do
+find . -name 'README.md' | while IFS= read -r file; do
     if [[ $file == *"README.md" ]]; then
     echo "Checkout $file now."
         if [[ $(git diff --name-only HEAD~1 HEAD -- "$file") ]]; then
