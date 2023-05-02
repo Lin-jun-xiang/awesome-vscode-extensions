@@ -4,8 +4,6 @@
     <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+請.;Any+questions+can+be+asked+in+Issue." />
 </div>
 
-* 測試.
-
 [中文版README.md](README.zh-TW.md)
 
 <details>
