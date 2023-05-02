@@ -26,7 +26,7 @@ jobs:
           sudo apt-get install -y translate-shell
 
       - name: Translate README
-        working-directory: ${{github.workspace}}
+        working-directory: .
         run: |
           bash translation.sh
 
@@ -41,7 +41,7 @@ jobs:
           LATEST_COMMIT_MSG=$(git show -s --format='%s')
 
           if [[ "$LATEST_COMMIT_MSG" != "Auto-translate README" ]]; then
-            git add README.zh-TW.md
+            git add .
             git commit -m "Auto-translate README"
             git push
           fi
