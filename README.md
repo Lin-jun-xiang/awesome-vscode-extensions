@@ -27,7 +27,9 @@
 * Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
 * This project will provide detailed usage instructions for each extension, with the hope of helping coders all over the world to code happily together :sunglasses:
 * This project provides a ["**extensions sharing area**"](./share/README.md), where anyone can submit interesting extensions.
-* If you want to **"Pull Requests"**, just update `README.md` that `README.zh-TW.md` will auto update via [action](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main)
+* If you want to **Pull Requests**, just update `README.md`
+
+    (`README.zh-TW.md` will auto update via [action](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main))
 
 * Outline of extensions:
     - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions)
