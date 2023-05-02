@@ -1,0 +1,50 @@
+name: Translate Readme
+
+on:
+  push:
+    branches:
+      - dev
+      - test
+      - main
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 5
+          token: ${{ secrets.Action_Bot }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install googletrans==4.0.0-rc1
+          sudo apt-get update
+          sudo apt-get install -y translate-shell
+
+      - name: Translate README
+        working-directory: .
+        run: |
+          bash translation.sh
+
+      - name: GIT Commit
+        env:
+          CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+          CI_COMMIT_AUTHOR: Continuous Integration
+        run: |
+          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          git config --global user.email "username@users.noreply.github.com"
+
+          LATEST_COMMIT_MSG=$(git show -s --format='%s')
+
+          if [[ "$LATEST_COMMIT_MSG" != "Auto-translate README" ]]; then
+            git add README.zh-TW.md
+            git commit -m "Auto-translate README"
+            git push
+          fi
