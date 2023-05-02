@@ -41,7 +41,8 @@ jobs:
           LATEST_COMMIT_MSG=$(git show -s --format='%s')
 
           if [[ "$LATEST_COMMIT_MSG" != "Auto-translate README" ]]; then
-            git add .
+            echo "You auto changed $(git diff --name-only)..."
+            git add $(git diff --name-only)
             git commit -m "Auto-translate README"
             git push
           fi
