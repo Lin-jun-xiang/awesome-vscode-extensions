@@ -4,6 +4,7 @@
     <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+請.;Any+questions+can+be+asked+in+Issue." />
 </div>
 
+* 測試.
 
 [中文版README.md](README.zh-TW.md)
 
@@ -89,7 +90,7 @@
 ## :snowflake:Transparent editor
 透明效果很贊.
 
-可以當個懶人工具（邊看視頻邊碼字~）.
+可以當個懶人工具（一邊看視頻一邊碼字~）.
 
 您可以在編碼和觀看時使用自己的桌面背景**Gura**.
 
@@ -107,9 +108,9 @@
 
 ## :purple_heart:Theme
 
-使用vscode最大的原因就是要有`eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. 只有好看的編輯環境才能讓coder願意敲鍵盤~:sunglasses:
+使用vscode最大的原因就是要有`eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. 只有好看的編輯環境才能讓coder們願意敲鍵盤~:sunglasses:
 
-接下來，筆者將他最喜歡的主題一一分享給大家（以下示例均基於Python，不同語言可能略有差異）
+接下來筆者將自己喜歡的主題一一分享給大家（以下示例均基於Python，不同語言可能略有差異）
 
 哦！稍等一下，這裡有一個快速切換主題的方法.畢竟你可能每天都想換主題~~
 
@@ -330,7 +331,7 @@ Windows:`ctrl+shift+2`
 >
 > 1. 選擇要執行的代碼（可以是一行或多行）.
 > 2. 右擊選中的代碼.
-> 3. 選擇 *在交互式窗口中運行選擇/行*.
+> 3. 選擇*在交互式窗口中運行選擇/行*.
 >
 ><img src="img/2023-03-17-22-04-33.png" width="60%">
 
@@ -373,9 +374,9 @@ Windows:`ctrl+shift+2`
 <img src="img/2023-03-20-11-47-42.png" width="60%">
 
 ### Dev-Container
-* 借助`Docker`，vscode內部的整個開發環境都可以在一個容器中運行，包括編輯、終端、調試、執行.
+* 借助`Docker`，vscode內部的整個開發環境都可以在容器中運行，包括編輯、終端、調試、執行.
 
-* `Node.js`, `Python`, `Java`, etc. 等各種開發任務，只需要安裝`Docker`和vscode，就可以在只安裝%_inlinecode_%和vscode的環境中，以最舒適的方式進行，無需安裝相應的runtime和編譯軟件.
+* `Node.js`, `Python`, `Java`, etc. 等各種開發任務，只需要安裝`Docker`和vscode，無需安裝相應的運行時和編譯軟件.
 
 <img src="img/2023-03-20-11-48-43.png" width="60%">
 
