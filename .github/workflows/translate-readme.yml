@@ -40,9 +40,21 @@ jobs:
 
           LATEST_COMMIT_MSG=$(git show -s --format='%s')
 
-          if [[ "$LATEST_COMMIT_MSG" != "Auto-translate README" ]]; then
-            echo "You auto changed $(git diff --name-only)..."
-            git add $(git diff --name-only)
-            git commit -m "Auto-translate README"
-            git push
+          CHECK=0
+          find . -name 'README.md' | while IFS= read -r file; do
+            if [[ $file == *"README.md" ]]; then
+                if [[ $(git diff --name-only) ]]; then
+                    CHECK=1
+                fi
+            fi
+          done
+
+          if [ $CHECK -eq 1]; then
+            if [[ "$LATEST_COMMIT_MSG" != "Auto-translate README" ]]; then
+              echo "You auto changed $(git diff --name-only)..."
+              git add $(git diff --name-only)
+              git commit -m "Auto-translate README"
+              git push
+            fi
+            CHECK=1
           fi
