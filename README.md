@@ -29,7 +29,7 @@
 * This project provides a ["**extensions sharing area**"](./share/README.md), where anyone can submit interesting extensions.
 * If you want to **Pull Requests**, just update `README.md`
 
-    (`README.zh-TW.md` will auto update via [action](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main))
+    ([`README.zh-TW.md` will auto update via action](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main))
 
 * Outline of extensions:
     - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions)
@@ -163,8 +163,6 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 
 <img src="img/2023-03-17-20-37-24.png" width="60%">
 
-<a href="#top">Back to top</a>
-
 ### One Dark Pro
 * One of the classic themes, cannot be ignored
 
@@ -213,6 +211,7 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 
 <img src="img/2023-03-17-20-35-39.png" width="60%">
 
+<a href="#top">Back to top</a>
 
 ---
 ## :yellow_heart: Beautifying editor and editing environment
