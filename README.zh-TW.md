@@ -27,7 +27,9 @@
 * 記錄分享vscode擴展，包括提升開發效率、必備、主題美化等.
 * 本項目將為每個擴展提供詳細的使用說明，希望能幫助全世界的碼友們一起愉快地碼字:sunglasses:
 * 本項目提供["**擴展分享區**"](./share/README.md)，任何人都可以在這裡提交感興趣的擴展.
-* 如果你想**“拉取請求”**，只需更新 `README.md` `README.zh-TW.md` 將通過 [action] 自動更新(https://github.com/Lin-jun-xiang/action-translate -降價/樹/主要）
+* 如果你想**拉取請求**，只需更新 `README.md`
+
+    (`README.zh-TW.md`會通過[action]自動更新(https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main))
 
 * 擴展概要:
     - [快速下載多個擴展（先閱讀這個）](#starquickly-download-multiple-extensions)
