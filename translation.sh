@@ -1,4 +1,3 @@
-#!/bin/bash
 get_inline_code() {
     line=$1
 
