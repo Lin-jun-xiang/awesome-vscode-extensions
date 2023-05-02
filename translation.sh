@@ -18,6 +18,7 @@ get_inline_code() {
     echo "$translated"$'\n'
 }
 
+# Checkout all the README.md which modified
 find . -name 'README.md' | while IFS= read -r file; do
     if [[ $file == *"README.md" ]]; then
     echo "Checkout $file now."

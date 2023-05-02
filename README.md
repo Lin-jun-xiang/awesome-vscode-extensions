@@ -29,7 +29,7 @@
 * This project provides a ["**extensions sharing area**"](./share/README.md), where anyone can submit interesting extensions.
 * If you want to **Pull Requests**, just update `README.md`
 
-    ([`README.zh-TW.md` will auto update via action](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main))
+    ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main) will auto update via CI)
 
 * Outline of extensions:
     - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions)
