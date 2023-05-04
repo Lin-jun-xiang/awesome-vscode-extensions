@@ -23,7 +23,7 @@
 
 ---
 
-* 記錄分享vscode擴展，包括提升開發效率、必備、主題美化等.
+* 記錄和分享vscode擴展，包括提升開發效率、必備、主題美化等.
 * 本項目將為每個擴展提供詳細的使用說明，希望能幫助全世界的碼友們一起愉快地碼字:sunglasses:
 * 本項目提供["**擴展分享區**"](./share/README.md)，任何人都可以在這裡提交感興趣的擴展.
 * 如果你想**拉取請求**，只需更新 `README.md`
@@ -86,9 +86,9 @@
 ---
 
 ## :snowflake:Transparent editor
-透明效果很贊.
+透明效果棒棒噠.
 
-可以當個懶人工具（一邊看視頻一邊碼字~）.
+可以當個懶人工具（邊看視頻邊碼字~）.
 
 您可以在編碼和觀看時使用自己的桌面背景**Gura**.
 
@@ -106,7 +106,7 @@
 
 ## :purple_heart:Theme
 
-使用vscode最大的原因就是要有`eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. 只有好看的編輯環境才能讓coder們願意敲鍵盤~:sunglasses:
+使用vscode最大的原因就是要有`eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. 只有好看的編輯環境才能讓coder願意敲鍵盤~:sunglasses:
 
 接下來筆者將自己喜歡的主題一一分享給大家（以下示例均基於Python，不同語言可能略有差異）
 
@@ -143,7 +143,7 @@
 <image src="https://user-images.githubusercontent.com/63782903/232356902-fc57dbc3-f650-4c41-b5a6-f33497954cc7.png" width="60%" />
 
 ### Dracula Official
-* 非常有名，吸血鬼顏色為*粉色*和*紫色*
+* 非常有名，*粉色*和*紫色*吸血鬼色
 
 <img src="img/2023-03-17-14-51-36.png" width="60%">
 
@@ -329,7 +329,7 @@ Windows:`ctrl+shift+2`
 >
 > 1. 選擇要執行的代碼（可以是一行或多行）.
 > 2. 右擊選中的代碼.
-> 3. 選擇*在交互式窗口中運行選擇/行*.
+> 3. 選擇 *在交互式窗口中運行選擇/行*.
 >
 ><img src="img/2023-03-17-22-04-33.png" width="60%">
 
@@ -346,6 +346,18 @@ Windows:`ctrl+shift+2`
 * 請記住使用 `git` 跟踪項目以使該插件工作.
 
 <img src="img/2023-03-17-22-08-15.png" width="60%">
+
+<details>
+<summary>More for GitLens</summary>
+
+* 將兩個提交與詳細的 **差異** 進行比較
+    * `COMMITS`: 選擇要與 HEAD (1~2) 進行比較的提交
+    * `SEARCH & COMPARE`: 選擇發生變化的文件 (3)
+    * `diff`: 正確的文件是 HEAD (4)
+
+        <img src="img/git_diff.PNG" width="60%" />
+
+</details>
 
 ### Markdown Preview Enhanced
 * 寫入`.md`文件時，可以預覽結果.
@@ -372,9 +384,9 @@ Windows:`ctrl+shift+2`
 <img src="img/2023-03-20-11-47-42.png" width="60%">
 
 ### Dev-Container
-* 借助`Docker`，vscode內部的整個開發環境都可以在容器中運行，包括編輯、終端、調試、執行.
+* 借助`Docker`，vscode內部的整個開發環境都可以在一個容器中運行，包括編輯、終端、調試、執行.
 
-* `Node.js`, `Python`, `Java`, etc. 等各種開發任務，只需要安裝`Docker`和vscode，無需安裝相應的運行時和編譯軟件.
+* `Node.js`, `Python`, `Java`, etc. 等各種開發任務，只需要安裝`Docker`和vscode，就可以在只安裝%_inlinecode_%和vscode的環境中，以最舒適的方式進行，無需安裝相應的runtime和編譯軟件.
 
 <img src="img/2023-03-20-11-48-43.png" width="60%">
 
