@@ -354,6 +354,7 @@ The plugins introduced below are essential for developers working on Github or G
     * `COMMITS`: Select the commit that you want to compare with HEAD (1~2)
     * `SEARCH & COMPARE`: Select the file which have changed (3)
     * `diff`: the right file is HEAD (4)
+
         <img src="img/git_diff.PNG" width="60%" />
 
 </details>
