@@ -23,7 +23,7 @@
 
 ---
 
-* 記錄和分享vscode擴展，包括提升開發效率、必備、主題美化等.
+* 記錄分享vscode擴展，包括提升開發效率、必備、主題美化等.
 * 本項目將為每個擴展提供詳細的使用說明，希望能幫助全世界的碼友們一起愉快地碼字:sunglasses:
 * 本項目提供["**擴展分享區**"](./share/README.md)，任何人都可以在這裡提交感興趣的擴展.
 * 如果你想**拉取請求**，只需更新 `README.md`
@@ -70,7 +70,7 @@
 
 * [`extensions-compare`](./extensions_compare/)
 
-* 比較兩個`.ps`文件，找出兩個擴展記錄的**差異**.
+* 比較兩個 `.ps` 文件，找出兩個擴展記錄之間的**差異** .
 
 * 用法（選擇以下之一）:
     * `compare.py`
@@ -86,7 +86,7 @@
 ---
 
 ## :snowflake:Transparent editor
-透明效果棒棒噠.
+透明效果很贊.
 
 可以當個懶人工具（邊看視頻邊碼字~）.
 
@@ -132,7 +132,7 @@
 
 ### Coder200
 * 這次光看名字就完全不知道了...
-* 非常難得的主題，滿滿的*橙色*，好性感~:flushed:
+* 難得一見的主題，滿滿的*橙色*，好性感~:flushed:
 
 <img src="img/2023-03-17-14-44-30.png" width="60%">
 
@@ -148,7 +148,7 @@
 <img src="img/2023-03-17-14-51-36.png" width="60%">
 
 ### LaserWave
-* 具有日落感覺的*紫粉色*主題
+* 帶有夕陽感覺的*紫粉色*主題
 
 <img src="img/2023-03-17-20-17-56.png" width="60%">
 
@@ -168,7 +168,7 @@
 <img src="img/2023-03-17-20-36-31.png" width="60%">
 
 ### Panda Theme
-* 頂級主題 *湖綠* :panda_face:
+* *湖綠* :panda_face: 的一流主題:
 * 這個主題真不錯！
 
 <img src="img/2023-03-17-20-21-23.png" width="60%">
@@ -329,7 +329,7 @@ Windows:`ctrl+shift+2`
 >
 > 1. 選擇要執行的代碼（可以是一行或多行）.
 > 2. 右擊選中的代碼.
-> 3. 選擇 *在交互式窗口中運行選擇/行*.
+> 3. 選擇*在交互式窗口中運行選擇/行*.
 >
 ><img src="img/2023-03-17-22-04-33.png" width="60%">
 
@@ -351,9 +351,10 @@ Windows:`ctrl+shift+2`
 <summary>More for GitLens</summary>
 
 * 將兩個提交與詳細的 **差異** 進行比較
-    * `COMMITS`: 選擇要與 HEAD (1~2) 進行比較的提交
-    * `SEARCH & COMPARE`: 選擇發生變化的文件 (3)
-    * `diff`: 正確的文件是 HEAD (4)
+    * `COMMITS`:選擇要與HEAD比較的提交（step1~2）
+    * `SEARCH & COMPARE`:選擇已更改的文件（第 3 步）
+    * `diff`:右側文件是 HEAD（第 4 步）
+
         <img src="img/git_diff.PNG" width="60%" />
 
 </details>
@@ -383,9 +384,9 @@ Windows:`ctrl+shift+2`
 <img src="img/2023-03-20-11-47-42.png" width="60%">
 
 ### Dev-Container
-* 借助`Docker`，vscode內部的整個開發環境都可以在一個容器中運行，包括編輯、終端、調試、執行.
+* 借助`Docker`，vscode內部的整個開發環境都可以在容器中運行，包括編輯、終端、調試、執行.
 
-* `Node.js`, `Python`, `Java`, etc. 等各種開發任務，只需要安裝`Docker`和vscode，就可以在只安裝%_inlinecode_%和vscode的環境中，以最舒適的方式進行，無需安裝相應的runtime和編譯軟件.
+* `Node.js`, `Python`, `Java`, etc. 等各種開發任務，只需要安裝`Docker`和vscode，無需安裝相應的運行時和編譯軟件.
 
 <img src="img/2023-03-20-11-48-43.png" width="60%">
 
