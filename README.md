@@ -347,6 +347,17 @@ The plugins introduced below are essential for developers working on Github or G
 
 <img src="img/2023-03-17-22-08-15.png" width="60%">
 
+<details>
+<summary>More for GitLens</summary>
+
+* Compare two commits with detailed **diffs**
+    * `COMMITS`: Select the commit that you want to compare with HEAD (1~2)
+    * `SEARCH & COMPARE`: Select the file which have changed (3)
+    * `diff`: the right file is HEAD (4)
+        <img src="img/git_diff.PNG" width="60%" />
+
+</details>
+
 ### Markdown Preview Enhanced
 * When writing `.md` files, you can preview the results.
 * Press `ctrl+k`, then `v` to open the preview window.
