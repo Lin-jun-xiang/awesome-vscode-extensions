@@ -4,6 +4,8 @@
 
 * 任何人都可以通過 **Pull Requests**. 在“`share/README_Chinese.md`”中發布有趣且有用的擴展
 
+* 測試中翻英
+
 ---
 
 ### In Your Face
