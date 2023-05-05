@@ -18,6 +18,7 @@
     * `Preferences: Color Theme`:為編輯器選擇顏色主題.
     * `Preferences: File Icon Theme`:為文件選擇圖標主題.
     * `Developer: Reload Window`:重新加載 VSCode 窗口.
+    * `測試`: 中文翻英文 :)
 
 </details>
 
@@ -31,7 +32,7 @@
     ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main) 會通過CI自動更新)
 
 * 擴展概要:
-    - [快速下載多個擴展（先閱讀這個）](#starquickly-download-multiple-extensions)
+    - [快速下載多個擴展(先閱讀這個)](#starquickly-download-multiple-extensions)
     - [透明編輯器](#snowflaketransparent-editor)
     - [主題](#purple_hearttheme)
     - [編輯器和環境美化](#yellow_heart-beautifying-editor-and-editing-environment)

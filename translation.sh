@@ -1,4 +1,33 @@
 #!/bin/bash
+
+declare -A map_table=(
+  [］]="]"
+  [［]="["
+  [（]="("
+  [）]=")"
+  [：]=":"
+  [u003d]="="
+#   [//]="\/"
+  [:emoji_]=":"
+  [%_ddot_%]="."
+  [%_bbackslash_%]="\/"
+  [＿]="_"
+  [，]=","
+  [；]=";"
+  [%_ttab_%]="    "
+  ["] ("]="]("
+)
+
+function convert_symbols() {
+    local input="$1"
+
+    for symbol in "${!map_table[@]}"; do
+        local replacement="${map_table[$symbol]}"
+        input="${input//$symbol/$replacement}"
+    done
+    echo "$input"
+}
+
 get_inline_code() {
     line=$1
     lang=$2
@@ -84,13 +113,8 @@ find . -type f -name 'README*' | while IFS= read -r file; do # Find the file beg
             done < "$file"
 
             # Replace special characters back to original characters
-            output="${output//%_ttab_%/    }"
             output=$(echo "$output" | sed 's/{EQUAL}/=/g')
-            output="${output//u003d/=}"
-            output="${output//：/:}"
-            output="${output//%_ddot_%/.}"
-            output="${output//%_bbackslash_%/\/}"
-            output="${output//:emoji_/:}"
+            output=$(convert_symbols "$output")
 
             # Write output file
             if [[ $lang == "/README" ]]; then
