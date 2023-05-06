@@ -1,7 +1,7 @@
 # vscode-extensions [Best]
 
 <div>
-    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please.;Any+questions+can+be+asked+in+Issue." />
+    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please .;Any+questions+can+be+asked+in+Issue." />
 </div>
 
 [中文版README.md](README.zh-TW.md)
@@ -9,60 +9,61 @@
 <details>
 <summary>Vscode Common Commands</summary>
 
-* Using the vscode command palette can improve development speed.
+* Using the vscode command panel can increase the development speed .
 
-* Open the command palette: `ctrl+shift+p`
+* Open command panel: `ctrl+shift+p`
 
-* Common Commands:
-    * `File: Open Folder`: Open a folder as a workspace.
-    * `Preferences: Color Theme`: Choose a color theme for the editor.
-    * `Preferences: File Icon Theme`: Choose an icon theme for the files.
-    * `Developer: Reload Window`: Reload the VSCode window.
+* Common commands:
+    * `File: Open Folder`: open folder as workspace .
+    * `Preferences: Color Theme`: select color theme for editor .
+    * `Preferences: File Icon Theme`: select icon theme for file .
+    * `Developer: Reload Window`: Reload VSCode window .
+    * `測試`: Chinese to English :)
 
 </details>
 
 ---
 
-* Record and share vscode extensions, including those that enhance development efficiency, must-haves, theme beautification, etc.
-* This project will provide detailed usage instructions for each extension, with the hope of helping coders all over the world to code happily together :sunglasses:
-* This project provides a ["**extensions sharing area**"](./share/README.md), where anyone can submit interesting extensions.
-* If you want to **Pull Requests**, just update `README.md`
+* Record sharing vscode extension, including improving development efficiency, essentials, theme beautification, etc. .
+* This project will provide detailed instructions for each extension, hoping to help coders all over the world code happily together: emoji_sunglasses:
+* This project provides ["**extended sharing area**"](./share/README.md), anyone can submit interested extensions here .
+* If you want **Pull Request**, just update `README.md`
 
-    ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main) will auto update via CI)
+    ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main) will be automatically updated through CI)
 
-* Outline of extensions:
-    - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions)
-    - [Transparent editor](#snowflaketransparent-editor)
-    - [Theme](#purple_hearttheme)
-    - [Editor and environment beautification](#yellow_heart-beautifying-editor-and-editing-environment)
-    - [Must-haves and highly recommended](#green_heart-must-have-highly-recommended)
-    - [Big data and AI engineer - Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
-    - [Git and Markdown assistants](#wavegitmarkdown-support)
-    - [Remote WSL & Dev-Container](#computer-remote-wsl--dev-container)
-    - [Fixer](#wrenchfixer-fix-vscode-corrupt)
-    - [Sharing and Contributing by Community](./share/README.md)
+* Expansion summary:
+     - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions)
+     - [transparent editor](#snowflaketransparent-editor)
+    - [theme](#purple_hearttheme)
+     - [editor and beautifying environment](#yellow_heart-beautifying-editor-and-editing-environment)
+     - [must have and highly recommended](#green_heart-must-have-highly-recommended)
+    - [Big Data and AI Engineer-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
+     - [Git and Markdown helper](#wavegitmarkdown-support)
+     - [Remote WSL and Dev Container](#computer-remote-wsl--dev-container)
+     - [Fixer](#wrenchfixer-fix-vscode-corrupt)
+     - [Community Shares and Contributions](./share/README.md)
 
 ---
 
 ## :star:Quickly download multiple extensions
-Later, we will introduce a lot of vscode extensions. Here is a trick that can quickly download many extensions without having to look for them one by one.
+I will introduce a lot of vscode extensions later . Here is a trick, you can quickly download many extensions without looking for . one by one
 
-If you want to transfer extensions from an old computer to a new one in the future, you can also use this method:kissing:
+If you want to transfer the extension from the old computer to the new computer in the future, you can also use this method:kissing:
 
-* You can download the `.ps1` file attached to this project and exclude the extensions you don't need by following step three below.
-* In the `extensions.ps1` file, each extension is annotated. Please delete the ones you don't need before executing the installation command.
+* You can download the `.ps1` file that comes with this project and follow step 3 below to exclude the extension . that you don't want
+* In the `extensions.ps1` file, each extension has a comment ., please delete the unnecessary . before executing the installation command
 
-> Method:
+> method:
 >
-> 1. Access all the extensions of vscode on the current computer and output them as text. Enter the following command in terminal (`powershell`):
+> 1. Access all extensions of vscode on the current computer, and output as text . Enter the following command in the terminal (`powershell`):
 > `code --list-extensions | ForEach-Object {"code --install-extension $_"} > extensions.ps1`
 >
-> 2. After the command is executed, the `extensions.ps1` file (the filename is defined when executing the command) will be obtained in the current directory.
+> 2. After the command is executed, the `extensions.ps1` file will be obtained in the current directory (the file name is defined when the command is executed) .
 >
-> 3. Enter the following command in terminal (`powershell`) on the new computer:
-> `.\extensions.ps1`
+> 3. Enter the following command in the terminal (`powershell`) of the new computer:
+> `./extensions.ps1`
 >
-> 4. Download completed
+> 4. download complete
 > <img src="https://user-images.githubusercontent.com/63782903/226086537-1dddd375-3206-44db-8208-17715d70c744.png" width="60%">
 
 <details>
@@ -70,15 +71,15 @@ If you want to transfer extensions from an old computer to a new one in the futu
 
 * [`extensions-compare`](./extensions_compare/)
 
-* Compare two `.ps` files and find the **difference** between the two extension records.
+* Compare two `.ps` files to find **differences** between two extension records .
 
 * Usage (choose one of the following):
     * `compare.py`
-        Run the `Python` script.
+          run `Python` script .
 
         <img src="img/2023-04-19-11-06-37.png">
     * `compare.sh`
-        Run `./extensions_compare/compare.sh` on `git bash, wsl, or linux`, etc.
+         runs `./extensions_compare/compare.sh` etc . on `git bash, wsl, or linux`
 
         <img src="img/2023-04-19-11-07-16.png">
 </details>
@@ -86,17 +87,17 @@ If you want to transfer extensions from an old computer to a new one in the futu
 ---
 
 ## :snowflake:Transparent editor
-Transparent effects are awesome.
+The transparency effect is amazing.
 
-It can be a work lazy tool (code while watching videos~).
+It can be used as a lazy tool (code words while watching the video~) .
 
-You can use your own desktop background while coding and watching **Gura**.
+You can use your own desktop background **Gura** . while coding and watching
 
 ### GlassIt-VSC
 
 > Usage:
-`ctrl+alt+z`: decrease saturation (transparent)
-`ctrl+alt+c`: increase saturation (opaque)
+`ctrl+alt+z`: desaturation (transparency)
+`ctrl+alt+c`: increase saturation (opacity)
 
 <img src="img/2023-03-20-20-35-03.png" width="60%">
 
@@ -106,33 +107,33 @@ You can use your own desktop background while coding and watching **Gura**.
 
 ## :purple_heart:Theme
 
-The biggest reason for using vscode is to have an `eye-catching`, `elegant`, `comfortable`, and `pleasant editing interface`. Only a good-looking editing environment can make coders willing to type on the keyboard ~:sunglasses:
+The biggest reason for using vscode is to have `eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. Only a good-looking editing environment can make the coder willing to type on the keyboard~:sunglasses:
 
-Next, the author will share his favorite themes with you one by one (the following examples are based on Python, and there may be slight differences for different languages)
+Next, I will share my favorite topics with you one by one (the following examples are all based on Python, and different languages may have slight differences)
 
-Oh! Wait a minute, here's a quick way to switch themes. After all, you may want to change your theme every day~~
+oh! Wait a minute, here is a quick way to switch themes . After all, you may want to change themes every day~~
 
-> Quickly switch themes
+> Quick switch theme
 >
-> "ctrl+shift+p": Open the vscode command input box
+> "ctrl+shift+p": Open vscode command input box
 >
-> "Preferences: Color Theme": Enter and select the theme you want
+> "Preferences:Color Theme": Enter and choose the theme you want
 
 ### Arc Dark for Visual Studio Code
-* The theme is somewhat similar to the dark theme of Visual Studio Code, but with softer overall tones that resemble the colors of macarons.
+* The theme is somewhat similar to the dark theme of Visual Studio Code, but the overall tone is softer, similar to the color of macarons.
 
 <img src="img/2023-03-25-16-10-51.png" width="60%">
 
 ### ButterTheme
-* As its name suggests, it is a non-eye-straining *cream yellow* theme
-* A very rare theme (to put it bluntly, not many people use it), but the author loves it
-* In case you can't find this theme，<a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">link</a>
+* As the name suggests, this is an eye-friendly *cream yellow* theme
+* A very rare theme (to put it bluntly, not many people use it), but the author likes it very much
+* If you can't find this theme, <a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">link</a>
 
 <img src="img/2023-03-17-14-36-15.png" width="60%">
 
 ### Coder200
-* This time, I have absolutely no idea just by looking at the name...
-* A very rare theme, filled with *orange* color, so sexy~ :flushed:
+* This time I just look at the name and I don’t know it at all...
+* Rare theme, full of *orange*, so sexy~:flushed:
 
 <img src="img/2023-03-17-14-44-30.png" width="60%">
 
@@ -143,70 +144,70 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 <image src="https://user-images.githubusercontent.com/63782903/232356902-fc57dbc3-f650-4c41-b5a6-f33497954cc7.png" width="60%" />
 
 ### Dracula Official
-* Very well-known, with a vampire color of *pink* and *purple*
+*very famous, *pink* and *purple* vampire colors
 
 <img src="img/2023-03-17-14-51-36.png" width="60%">
 
 ### LaserWave
-* A *purple-pink* theme with a sunset feel
+* A *purple pink* theme with a sunset feel
 
 <img src="img/2023-03-17-20-17-56.png" width="60%">
 
 ### Moegi Theme
-* A gentle and eye-friendly theme
+* Gentle and seductive theme
 
 <img src="img/2023-03-17-20-20-13.png" width="60%">
 
 ### Material Dark
-* One of the classic themes, cannot be ignored
+* One of the classic themes that cannot be ignored
 
 <img src="img/2023-03-17-20-37-24.png" width="60%">
 
 ### One Dark Pro
-* One of the classic themes, cannot be ignored
+* One of the classic themes that cannot be ignored
 
 <img src="img/2023-03-17-20-36-31.png" width="60%">
 
 ### Panda Theme
-* A top-notch theme with *lake green* :panda_face:
-* This theme is really nice!
+* *Lake Green* :panda_face: A first-class theme:
+* This theme is really cool!
 
 <img src="img/2023-03-17-20-21-23.png" width="60%">
 
 ### Simple Dark
-* The background is very dark, and the text color is not too harsh on the eyes
+* The background is very dark, the text color will not be too dazzling
 
 <img src="img/2023-03-17-20-23-37.png" width="60%">
 
 ### Skyline
-* Blue lovers must use it:blue_heart:
+* Blue lovers must use it :blue_heart:
 
 <img src="img/2023-03-17-20-25-15.png" width="60%">
 
 ### SynthWave '84
-* A super high-tech, flashy fluorescent theme :sunglasses:
-* After selecting the theme, remember to activate the fluorescent effect (which can also be combined with other theme colors:fu:)
+* Super high-tech, dazzling fluorescent theme :sunglasses:
+* After selecting the theme, remember to turn on the fluorescent effect (it can also be matched with other theme colors: emoji_fu:)
 
-> To enable fluorescent mode:
+> Enable fluorescence mode:
 >
 > 1. "ctrl+shift+p": Open the VS Code command input box
 >
-> 2. "Synthwave '84: Enable/Disable Neon Dreams": Turn on/off (see figure)
+> 2. "Synthwave '84: Enable/Disable Neon Dreams": Enable/Disable Neon Dreams (see picture)
 >
-> 3. "Restart": Restart VS Code
+> 3. "Restart": restart VS Code
 
 <img src="img/2023-03-17-20-28-44.png" width="60%">
 
 <img src="img/2023-03-17-20-27-06.png" width="60%">
 
 ### Tearz
-* It's a bit similar to the previously introduced Moegi theme
-* But this *purple* is really attractive to the author~
+* A bit similar to the previously launched Moe Wood theme
+*But this *purple* really attracts the author~
 
 <img src="img/2023-03-17-20-33-32.png" width="60%">
 
 ### Xcode Theme
-* One of the classic themes, cannot be ignored
+* One of the classic themes that cannot be ignored
 
 <img src="img/2023-03-17-20-35-39.png" width="60%">
 
@@ -214,23 +215,23 @@ Oh! Wait a minute, here's a quick way to switch themes. After all, you may want 
 
 ---
 ## :yellow_heart: Beautifying editor and editing environment
-After decorating our editor, the plugins we are going to introduce can not only increase aesthetics but also improve work efficiency~
+After decorating our editor, the plug-ins to be introduced next can not only increase the aesthetic feeling, but also improve work efficiency~
 
 ### Color Highlight
-* If you are a **front-end** engineer or **data analyst** who often needs to do **visual** work, you must download this! 
-* When editing, as long as a **hexadecimal** color expression appears, you can clearly see the color (no need to run the code to see if the color looks good).
+* If you are a **front-end** engineer or **data analyst**, and often need to do **visual** work, be sure to download this!
+* When editing, as long as there is a **hexadecimal** color expression, you can clearly see the color (you don’t need to run the code to see if the color looks good) .
 
 <img src="img/2023-03-17-20-48-11.png" width="60%">
 
 ### Material Theme Icons
 * Different file extensions have different icons
-* Not only look good but also make it faster to find files. 
+* Not only looks good but can find files faster.
 
 <img src="img/2023-03-17-20-51-07.png" width="60%">
 
 ### vscode-icons
-* Slightly different from Material Theme Icons
-* The author prefers to use this one~
+* Slightly different from Material theme icons
+* The author prefers to use this~
 
 <img src="img/2023-03-17-20-53-26.png" width="60%">
 
@@ -240,45 +241,45 @@ After decorating our editor, the plugins we are going to introduce can not only 
 ## :green_heart: Must-have, highly recommended
 The plugins to be introduced below are really easy to use!
 
-The vast majority of them can improve development efficiency, so don't miss them:heart_eyes:
+Most of them can improve development efficiency, don't miss it:heart_eyes:
 
 ### Code Runner
-* I believe that those who use VSCode should not be unfamiliar with this plugin!?
-* It allows VSCode to execute programs with one click.
-* Supports many languages, such as C, C++, Java, JavaScript, PHP, Python, Perl...etc.
+* I believe that friends who have used VSCode should be familiar with this plugin! ?
+* Allow VSCode to execute the program with one click .
+* Support multiple languages, such as C, C++, Java, JavaScript, PHP, Python, Perl...etc.
 
 <img src="img/2023-03-17-20-59-33.png" width="60%">
 
 ### Comment Divider
-* Generates good-looking **comment styles** with shortcut keys.
+* Use shortcut keys to generate nice **comment styles**.
 * As shown in the figure below, you can see two styles: `Shift+Alt+x` and `Alt+x`.
 
 <img src="img/2023-03-17-21-03-04.png" width="60%">
 
 ### autoDocstring - Python Docstring Generator
-* The plugin is introduced for Python developers.
-* Quickly generate comments in **Docstring** style using shortcut keys.
-* Describe the purpose, parameters, return values, and other information of the function.
-* Support different **Docstring** styles, such as google, sphinx, numpy, etc.
+* This plugin is introduced by . for Python developers
+* Use shortcut keys to quickly generate **Docstring** style comments .
+* Describe the purpose, parameters, return value and other information of the function.
+* Support different **Docstring** styles, such as google, sphinx, numpy, etc. .
 
-> Usage: press the following key in the place where you want to generate comments
+> How to use: Press the key below where you want to generate comments
 Windows: `ctrl+shift+2`
-Mac: `cmd+shift+2` 
+Mac: `cmd+shift+2`
 
 <img src="img/2023-03-17-21-07-10.png" width="60%">
 
 ### Draw.io Integration
-* Flowchart drawing tool
-* When designing a project, you can use this plugin to plan feasibility.
-* Can be used as a note-taking tool.
-* Support many commonly used patterns, such as the Google Cloud Platform representative function symbol (as shown in the figure).
+* Flow chart drawing tool
+* When designing a project, you can use this plugin to plan the feasibility.
+* Can be used as a note tool .
+* Support many commonly used modes, such as Google cloud platform representative function symbol (as shown in the figure).
 
 <img src="img/2023-03-17-21-14-00.png" width="60%">
 
 ### Path Intellisense
-* Having this plugin when coding is really great :kissing_heart:
-* Suitable for code farmers who often read and write files.
-* When writing a path, it will automatically list the files under the path you are looking for.
+* It's really nice to have this plugin when coding :kissing_heart:
+* Suitable for coders who frequently read and write files .
+* When writing the path, it will automatically list the files . under the path you want to find
 
 <img src="img/2023-03-17-21-17-09.png" width="60%">
 
@@ -287,23 +288,23 @@ Mac: `cmd+shift+2`
 ---
 
 ## :star2:Big data, AI engineer - Jupyter (Python)
-The plugin introduced here is really awesome!
+The plug-ins introduced here are really powerful!
 
-The author knows many people who use Python are not used to using vscode, and there are many reasons:
+The author knows that many people who use Python are not used to using vscode for many reasons:
 * Interactive mode
-* View variable data types and variable values (just like in Spyder, Pycharm)
-* Execute code line by line and execute part of the code (really practical, even better than Debug~:heart_eyes:)
+* View variable data type and variable value (just like in Spyder, Pycharm)
+* Execute the code line by line, and execute part of the code (really very practical, better than Debug~:heart_eyes:)
 
 The plugin provides the following features:
-* :pushpin:**Interactive mode**
-* :pushpin:**View variable data types and variable values** (just like in Spyder, Pycharm)
-* :pushpin:**Execute code line by line** and **execute part of the code** (really practical, even better than Debug~:heart_eyes:)
+* :pushpin:**interactive mode**
+* :pushpin:**View variable data type and variable value** (like in Spyder, Pycharm)
+* :pushpin: **Execute code line by line** and **Execute part of code** (really useful, better than Debug~:heart_eyes:)
 
-> If you can understand Chinese, it is recommended to spend 5 minutes quickly learning how to use the Jupyter plugin (view <a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank">link</a>)
+> If you can understand Chinese, it is recommended to spend 5 minutes to quickly learn how to use the Jupyter plug-in (see <a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank"> link</a>)
 
 > Usage:
 >
-> :bulb:Download the following plugins (some may not be needed, but I forgot~)
+> :bulb: Download the following plug-ins (some may not be used, forget it~)
 >
 > `Jupyter`, `Jupyter keymap`, `Jupyter slide show`, `Jupyter cell tag`, `Jupyter notebook renderes`, `vs code jupyter notebook previewer`
 >
@@ -311,25 +312,25 @@ The plugin provides the following features:
 
 > :bulb:**Execute code in interactive mode**
 >
-> 1. Right-click in the script.
-> 2. Select `Run Current File in Interactive Window`
-(It is recommended to set a VS Code shortcut key, I set it as `F10`).
-> 3. After execution, an `Interactive` window will appear.
+> 1. right click . in script
+> 2. select `Run Current File in Interactive Window`
+(It is recommended to set a VS Code shortcut key, I set it to `F10`) .
+> 3 . `Interactive` window . will appear after execution
 >
 ><img src="img/2023-03-17-21-54-03.png" width="40%">
 ><img src="img/2023-03-17-21-57-03.png" width="40%">
 
-> :bulb:**View variable data types and variable values** (Need to be in interactive mode)
+> :bulb:**View variable data type and variable value** (need to be in interactive mode)
 >
-> Click *Variables* in the interactive window.
+> Click *Variables*. in the interactive window
 >
 ><img src="img/2023-03-20-13-17.PNG" width="60%">
 
-> :bulb:**Execute line by line or partially**
+> :bulb: **Execute line by line or partly**
 >
-> 1. Select the code to execute (can be one or more lines).
-> 2. Right-click the selected code.
-> 3. Select *Run Selection/Line in Interactive Window*.
+> 1. Select the code to execute (can be one or more lines) .
+> 2. right click on the selected code.
+> 3 . SELECT *RUN SELECTION/LINE IN INTERACTIVE WINDOW* .
 >
 ><img src="img/2023-03-17-22-04-33.png" width="60%">
 
@@ -338,31 +339,31 @@ The plugin provides the following features:
 ---
 
 ## :wave:Git、Markdown Support
-The plugins introduced below are essential for developers working on Github or Gitlab projects.
+The plugins described below are essential . for developers working on Github or Gitlab projects
 
 ### GitLens
-* After downloading, the script code will display **which** parts have been **modified**, **who** made the changes, and **when** they were made.
-* Pay attention to the code on the right side of the screen. There is a green line at line `170`, which indicates that there is a record of new code added (red indicates deleted code).
-* Remember to track the project with `git` for this plugin to work.
+* After downloading, the script code will show **which** parts were **modified**, **who** made the changes, **when** the . was modified
+* Note that there is a green line on the line .`170` on the right side of the screen to indicate that there is a record of new code (red means to delete the code) .
+* Remember to track the project with `git` for this plugin to work .
 
 <img src="img/2023-03-17-22-08-15.png" width="60%">
 
 <details>
 <summary>More for GitLens</summary>
 
-* Compare two commits with detailed **diffs**
-    * `COMMITS`: Select the commit that you want to compare with HEAD (step1~2)
-    * `SEARCH & COMPARE`: Select the file which have changed (step3)
-    * `diff`: the right hand file is HEAD (step4)
+* Compare two commits with a detailed **difference**
+    * `COMMITS`: Select the commit to compare with HEAD (step1~2)
+    * `SEARCH & COMPARE`: select changed files (step 3)
+    * `diff`: right file is HEAD (step 4)
 
         <img src="img/git_diff.PNG" width="60%" />
 
 </details>
 
 ### Markdown Preview Enhanced
-* When writing `.md` files, you can preview the results.
-* Press `ctrl+k`, then `v` to open the preview window.
-* The middle of the figure below shows the `.md` file, and the right side shows the preview window.
+* When writing `.md` file, you can preview the result .
+* Press `ctrl+k`, then `v` to open preview window .
+* The middle of the figure below is the `.md` file, and the right side is the preview window .
 
 
 <img src="img/2023-03-17-22-15-20.png" width="60%">
@@ -374,19 +375,19 @@ The plugins introduced below are essential for developers working on Github or G
 ## :computer: Remote WSL & Dev Container
 
 ### Remote WSL
-* vscode will open in the `Windows Subsystem Linux` environment.
-* You can edit files within the `WSL` environment in the vscode editor without using `vim` or `nano`.
+* vscode will open . in `Windows Subsystem Linux` environment
+* You can edit files in `WSL` environment in vscode editor without using `vim` or `nano`.
 
 > Usage:
-> 1. `ctrl+shift+p`: open the command palette.
-> 2. `WSL: New WSL Window`: open the `WSL` environment within vscode.
+> 1. `ctrl+shift+p`: open command panel .
+> 2 . `WSL: New WSL Window`: Open `WSL` environment in vscode .
 
 <img src="img/2023-03-20-11-47-42.png" width="60%">
 
 ### Dev-Container
-* With the help of `Docker`, the entire development environment within vscode can run in a container, including editing, terminal, debugging, and execution.
+* With `Docker`, the entire development environment inside vscode can run in the container, including editing, terminal, debugging, executing .
 
-* You can perform various development tasks such as `Node.js`, `Python`, `Java`, etc. in the most comfortable way within an environment with only `Docker` and vscode installed, without the need to install corresponding runtime and compilation software.
+* `Node.js`, `Python`, `Java`, etc. and other development tasks, only need to install `Docker` and vscode, no need to install the corresponding runtime and compiling software.
 
 <img src="img/2023-03-20-11-48-43.png" width="60%">
 
@@ -395,20 +396,19 @@ The plugins introduced below are essential for developers working on Github or G
 ---
 
 ## :wrench:Fixer (Fix Vscode Corrupt)
-Sometimes, when uninstalling a plugin, an error message appears in the lower right corner of the VS Code window as following:
+Sometimes, when uninstalling a plugin, the following error message appears in the lower right corner of the VS Code window:
 
 <img src="https://user-images.githubusercontent.com/63782903/231321298-916da9d3-0e90-4bd5-bfc6-859371545ec7.png" width="60%" />
 
-You can solve this problem using the following method:
+You can solve this problem with:
 
 > Usage:
-> 1. Download the Fix VSCode Checksums plugin.
-> 2. `ctrl+shift+p`: open the command palette.
-> 3. `Fix ChecksumS: Apply`: execute the repair.
-> 4. `ctrl+shift+p`: open the command palette.
-> 5. `Developer: Reload Window`: Restart VS Code.
+> 1. Download Fix VSCode Checksum Plugin .
+> 2. `ctrl+shift+p`: open command palette .
+> 3. `Fix ChecksumS: Apply`: perform repair .
+> 4. `ctrl+shift+p`: open command palette .
+> 5. `Developer: Reload Window`: restart VS Code.
 
 <img src="img/2023-03-17-21-36-48.png" width="60%">
 
 <a href="#top">Back to top</a>
- 
