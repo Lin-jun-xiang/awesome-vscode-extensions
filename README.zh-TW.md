@@ -9,6 +9,8 @@
 <details>
 <summary>Vscode Common Commands</summary>
 
+* 測試
+
 * 使用vscode命令面板可以提高開發速度.
 
 * 打開命令面板:`ctrl+shift+p`
@@ -125,7 +127,7 @@
 <img src="img/2023-03-25-16-10-51.png" width="60%">
 
 ### ButterTheme
-* 顧名思義,這是一款養眼的*奶油黃色*主題
+* 顧名思義,這是一款養眼的*奶黃色*主題
 * 非常難得的一個主題(說白了,用的人不多),但是作者很喜歡
 * 如果找不到這個主題,<a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">鏈接</a>
 
@@ -154,7 +156,7 @@
 <img src="img/2023-03-17-20-17-56.png" width="60%">
 
 ### Moegi Theme
-* 溫柔養眼的主題
+* 溫柔嫵媚的主題
 
 <img src="img/2023-03-17-20-20-13.png" width="60%">
 
@@ -241,7 +243,7 @@
 ## :green_heart: Must-have, highly recommended
 下面要介紹的插件真的好用！
 
-大部分都可以提高開發效率,不要錯過:heart_eyes:
+大部分可以提高開發效率,不要錯過:heart_eyes:
 
 ### Code Runner
 * 相信用過VSCode的朋友應該對這個插件不陌生吧！ ？
