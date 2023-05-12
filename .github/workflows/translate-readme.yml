@@ -1,67 +1,19 @@
 name: Translate Readme
 
 on:
-  push:
-    branches: ['**']
+    push:
+        branches: ['**']
 
 jobs:
-  translate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 5
-          token: ${{ secrets.Action_Bot }}
+    translate:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+              with:
+                fetch-depth: 3
 
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.9'
-
-      - name: Install dependencies
-        run: |
-          pip install googletrans==4.0.0-rc1
-          sudo apt-get update
-          sudo apt-get install -y translate-shell
-
-      - name: Translate README
-        working-directory: .
-        run: |
-          bash translation.sh
-
-      - name: GIT Commit
-        env:
-          CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
-          CI_COMMIT_AUTHOR: Continuous Integration
-        run: |
-          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-          git config --global user.email "username@users.noreply.github.com"
-
-          LATEST_COMMIT_MSG=$(git show -s --format='%s')
-
-          echo "You auto changed $(git diff --name-only)..."
-
-          function check_readme_changes() {
-            local result=0
-            while IFS= read -r file; do
-              if [[ $file == *"README.md" ]]; then
-                if [[ $(git diff --name-only) ]]; then
-                  result=1
-                fi
-              fi
-            done < <(find . -name 'README.md')
-            echo "$result"
-          }
-
-          CHECK=$(check_readme_changes)
-
-          if [ $CHECK -eq 1 ]; then
-            if [[ "$LATEST_COMMIT_MSG" != "Auto-translate README" ]]; then
-              echo "Commit..."
-              git add $(git diff --name-only)
-              git commit -m "Auto-translate README"
-              git push
-            fi
-            CHECK=0
-          fi
+            - name: Auto Translate
+              uses: Lin-jun-xiang/action-translate-readme@v1
+              with:
+                token: ${{ secrets.Action_Bot }}
