@@ -9,6 +9,8 @@
 <details>
 <summary>Vscode Common Commands</summary>
 
+* Test
+
 * Using the vscode command panel can increase the development speed .
 
 * Open command panel: `ctrl+shift+p`
