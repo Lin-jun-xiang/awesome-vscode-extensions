@@ -9,7 +9,6 @@
 <details>
 <summary>Vscode Common Commands</summary>
 
-* 測試
 
 * 使用vscode命令面板可以提高開發速度.
 
