@@ -373,7 +373,20 @@ The plugins described below are essential . for developers working on Github or 
 
 <img src="img/2023-03-17-22-15-20.png" width="60%">
 
+### Paste Image
+* Paste image directly from clipboard to markdown/asciidoc(or other file)!
+* Usage
+    * capture screen to clipboard
+    * use default keyboard binding: `Ctrl+Alt+V` (`Cmd+Alt+V` on Mac).
+    * Image will be saved in the folder that contains current editing file
+    * The relative path will be paste to current editing file
+
+* You can config the `imagePath` in settings.
+
+    <img src="img/2023-05-27-15-53-03.png" width="60%" />
+
 <a href="#top">Back to top</a>
+
 
 ---
 
