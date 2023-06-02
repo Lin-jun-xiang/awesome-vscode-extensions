@@ -18,7 +18,6 @@
     * `Preferences: Color Theme`:為編輯器選擇顏色主題.
     * `Preferences: File Icon Theme`:為文件選擇圖標主題.
     * `Developer: Reload Window`:重新加載 VSCode 窗口.
-    * `測試`: 中文翻英文 :)
 
 </details>
 
@@ -41,8 +40,8 @@
     - [Git 和 Markdown 助手](#wavegitmarkdown-support)
     - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
     - [修復器](#wrenchfixer-fix-vscode-corrupt)
+    - [Copilot 輔助]()
     - [社區共享和貢獻](./share/README.md)
-
 ---
 
 ## :star:Quickly download multiple extensions
@@ -417,4 +416,37 @@ Windows:`ctrl+shift+2`
 <img src="img/2023-03-17-21-36-48.png" width="60%">
 
 <a href="#top">Back to top</a>
+
+## :rocket: Copilot
+類似 ChatGPT 的 AI 輔助開發工具，讓大家在開發過程中更快速
+
+### Codeium
+* 完全**免費**使用 !
+* 功能與 ChatGPT、Copilot 勘比
+* 使用該工具，您可以:
+    * 自動生成代碼
+    * 自動生成註解、`Docstring`
+    * 自動生成 `Annotation hint`
+    * 提高代碼質量
+
+    <img src="img/2023-06-02-11-36-02.png" width="60%" />
+
+* 使用方法
+    * 點選代碼區塊的 `Refactor`
+
+        <img src="img/2023-06-02-11-35-37.png" width="60%" />
+
+    * 選擇您要進行的處理，例如: `Add comments and docstrings to the code`
+
+        <img src="img/2023-06-02-11-35-48.png" width="60%" />
+
+    * 生成 `Codeium` 聊天區塊
+
+        <img src="img/2023-06-02-11-35-56.png" width="60%" />
+
+    * 代碼提煉完成!
+
+<a href="#top">Back to top</a>
+
+
 
