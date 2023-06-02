@@ -25,7 +25,7 @@
 ---
 
 * Record sharing vscode extension, including improving development efficiency, essentials, theme beautification, etc. .
-* This project will provide detailed instructions for each extension, hoping to help coders all over the world code happily together: emoji_sunglasses:
+* This project will provide detailed instructions for each extension, hoping to help coders all over the world code happily together:sunglasses:
 * This project provides ["**extended sharing area**"](./share/README.md), anyone can submit interested extensions here .
 * If you want **Pull Request**, just update `README.md`
 
@@ -50,7 +50,7 @@ I will introduce a lot of vscode extensions later . Here is a trick, you can qui
 
 If you want to transfer the extension from the old computer to the new computer in the future, you can also use this method:kissing:
 
-* You can download the `.ps1` file that comes with this project and follow step 3 below to exclude the extension . that you don't want
+* You can download the `.ps1` file that comes with this project and follow the third step below to exclude the extension . that you don't want
 * In the `extensions.ps1` file, each extension has a comment ., please delete the unnecessary . before executing the installation command
 
 > method:
@@ -107,7 +107,7 @@ You can use your own desktop background **Gura** . while coding and watching
 
 ## :purple_heart:Theme
 
-The biggest reason for using vscode is to have `eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. Only a good-looking editing environment can make the coder willing to type on the keyboard~:sunglasses:
+The biggest reason to use vscode is to have `eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. Only a good-looking editing environment can make the coder willing to type on the keyboard~:sunglasses:
 
 Next, I will share my favorite topics with you one by one (the following examples are all based on Python, and different languages may have slight differences)
 
@@ -206,6 +206,11 @@ oh! Wait a minute, here is a quick way to switch themes . After all, you may wan
 
 <img src="img/2023-03-17-20-33-32.png" width="60%">
 
+### Vuesion Theme
+* Simple pink, looks very comfortable
+
+<img src="img/2023-05-18-14-20-10.png" width="60%">
+
 ### Xcode Theme
 * One of the classic themes that cannot be ignored
 
@@ -270,14 +275,14 @@ Mac: `cmd+shift+2`
 
 ### Draw.io Integration
 * Flow chart drawing tool
-* When designing a project, you can use this plugin to plan the feasibility.
+* When designing a project, you can use this plugin to plan the feasibility .
 * Can be used as a note tool .
 * Support many commonly used modes, such as Google cloud platform representative function symbol (as shown in the figure).
 
 <img src="img/2023-03-17-21-14-00.png" width="60%">
 
 ### Path Intellisense
-* It's really nice to have this plugin when coding :kissing_heart:
+* It's really cool to have this plugin when coding :kissing_heart:
 * Suitable for coders who frequently read and write files .
 * When writing the path, it will automatically list the files . under the path you want to find
 
@@ -300,7 +305,7 @@ The plugin provides the following features:
 * :pushpin:**View variable data type and variable value** (like in Spyder, Pycharm)
 * :pushpin: **Execute code line by line** and **Execute part of code** (really useful, better than Debug~:heart_eyes:)
 
-> If you can understand Chinese, it is recommended to spend 5 minutes to quickly learn how to use the Jupyter plug-in (see <a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank"> link</a>)
+> If you can understand Chinese, it is recommended to spend 5 minutes to quickly learn how to use the Jupyter plugin (see <a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank"> link</a>)
 
 > Usage:
 >
@@ -368,7 +373,20 @@ The plugins described below are essential . for developers working on Github or 
 
 <img src="img/2023-03-17-22-15-20.png" width="60%">
 
+### Paste Image
+* Paste image directly from clipboard to markdown/asciidoc(or other file)!
+* Usage
+    * capture screen to clipboard
+    * use default keyboard binding: `Ctrl+Alt+V` (`Cmd+Alt+V` on Mac).
+    * Image will be saved in the folder that contains current editing file
+    * The relative path will be paste to current editing file
+
+* You can config the `imagePath` in settings.
+
+    <img src="img/2023-05-27-15-53-03.png" width="60%" />
+
 <a href="#top">Back to top</a>
+
 
 ---
 
@@ -387,7 +405,7 @@ The plugins described below are essential . for developers working on Github or 
 ### Dev-Container
 * With `Docker`, the entire development environment inside vscode can run in the container, including editing, terminal, debugging, executing .
 
-* `Node.js`, `Python`, `Java`, etc. and other development tasks, only need to install `Docker` and vscode, no need to install the corresponding runtime and compiling software.
+* `Node.js`, `Python`, `Java`, etc. and other development tasks, only need to install `Docker` and vscode, no need to install the corresponding runtime and compiling software .
 
 <img src="img/2023-03-20-11-48-43.png" width="60%">
 
