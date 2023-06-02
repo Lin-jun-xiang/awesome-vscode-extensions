@@ -14,10 +14,11 @@
 * 打開命令面板:`ctrl+shift+p`
 
 * 常用命令:
-    * `File: Open Folder`:打開文件夾作為工作空間.
-    * `Preferences: Color Theme`:為編輯器選擇顏色主題.
-    * `Preferences: File Icon Theme`:為文件選擇圖標主題.
-    * `Developer: Reload Window`:重新加載 VSCode 窗口.
+    * `File: Open Folder`:打開文件夾作為工作區 .
+    * `Preferences: Color Theme`:為編輯器 . 選擇顏色主題
+    * `Preferences: File Icon Theme`:為文件 . 選擇圖標主題
+    * `Developer: Reload Window`:重新加載 VSCode 窗口 .
+    * `測試`: 中譯英 :)
 
 </details>
 
@@ -31,17 +32,16 @@
     ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main)會通過CI自動更新)
 
 * 擴展摘要:
-    - [快速下載多個擴展(先閱讀這個)](#starquickly-download-multiple-extensions)
-    - [透明編輯器](#snowflaketransparent-editor)
+     - [快速下載多個擴展(先閱讀這個)](#starquickly-download-multiple-extensions)
+     - [透明編輯器](#snowflaketransparent-editor)
     - [主題](#purple_hearttheme)
-    - [編輯器和環境美化](#yellow_heart-beautifying-editor-and-editing-environment)
-    - [必備和強烈推薦](#green_heart-must-have-highly-recommended)
-    - [大數據與AI工程師-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
-    - [Git 和 Markdown 助手](#wavegitmarkdown-support)
-    - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
-    - [修復器](#wrenchfixer-fix-vscode-corrupt)
-    - [Copilot 輔助](#codeium)
-    - [社區共享和貢獻](./share/README.md)
+     - [編輯和美化環境](#yellow_heart-beautifying-editor-and-editing-environment)
+     - [必須擁有並強烈推薦](#green_heart-must-have-highly-recommended)
+    - [大數據與人工智能工程師-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
+     - [Git 和 Markdown 助手](#wavegitmarkdown-support)
+     - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
+     - [修復器](#wrenchfixer-fix-vscode-corrupt)
+     - [社區分享和貢獻](./share/README.md)
 
 ---
 
@@ -125,7 +125,7 @@
 <img src="img/2023-03-25-16-10-51.png" width="60%">
 
 ### ButterTheme
-* 顧名思義,這是一款養眼的*奶黃色*主題
+* 顧名思義,這是一款養眼的*奶油黃色*主題
 * 非常難得的一個主題(說白了,用的人不多),但是作者很喜歡
 * 如果找不到這個主題,<a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">鏈接</a>
 
@@ -403,7 +403,7 @@ Windows:`ctrl+shift+2`
 <img src="img/2023-03-20-11-47-42.png" width="60%">
 
 ### Dev-Container
-* 使用`Docker`,vscode內部的整個開發環境都可以在容器中運行,包括編輯、終端、調試、執行.
+* 使用`Docker`,vscode裡面的整個開發環境都可以在容器中運行,包括編輯、終端、調試、執行.
 
 * `Node.js`、`Python`、`Java`、etc.等開發任務,只需要安裝`Docker`和vscode,無需安裝相應的runtime和編譯軟件.
 
@@ -428,37 +428,5 @@ Windows:`ctrl+shift+2`
 > 5. `Developer: Reload Window`: 重啟 VS Code.
 
 <img src="img/2023-03-17-21-36-48.png" width="60%">
-
-<a href="#top">Back to top</a>
-
-
-## :rocket: Copilot
-類似 ChatGPT 的 AI 輔助開發工具，讓大家在開發過程中更快速
-
-### Codeium
-* 完全**免費**使用 !
-* 功能與 ChatGPT、Copilot 勘比
-* 使用該工具，您可以:
-    * 自動生成代碼
-    * 自動生成註解、`Docstring`
-    * 自動生成 `Annotation hint`
-    * 提高代碼質量
-
-    <img src="img/2023-06-02-11-36-02.png" width="60%" />
-
-* 使用方法
-    * 點選代碼區塊的 `Refactor`
-
-        <img src="img/2023-06-02-11-35-37.png" width="60%" />
-
-    * 選擇您要進行的處理，例如: `Add comments and docstrings to the code`
-
-        <img src="img/2023-06-02-11-35-48.png" width="60%" />
-
-    * 生成 `Codeium` 聊天區塊
-
-        <img src="img/2023-06-02-11-35-56.png" width="60%" />
-
-    * 代碼提煉完成!
 
 <a href="#top">Back to top</a>
