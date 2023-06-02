@@ -15,10 +15,9 @@
 
 * Common commands:
     * `File: Open Folder`: open folder as workspace .
-    * `Preferences: Color Theme`: Select color theme for editor .
+    * `Preferences: Color Theme`: select color theme for editor .
     * `Preferences: File Icon Theme`: select icon theme for file .
     * `Developer: Reload Window`: Reload VSCode window .
-    * `測試`: Chinese to English :)
 
 </details>
 
@@ -26,21 +25,22 @@
 
 * Record and share vscode extensions, including improving development efficiency, key points, theme beautification, etc. . .
 * This project will provide detailed instructions for each extension, hoping to help coders all over the world code happily together: emoji_sunglasses:
-* This project provides ["**extended sharing area**"](./share/README.md), you can submit interested extensions here .
+* This project provides ["**extended sharing area**"](./share/README.md), you can submit interested extensions here.
 * If you want **Pull Request**, just update `README.md`
 
     ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main) will be automatically updated through CI)
 
 * Extended Summary:
      - [Quickly download multiple extensions (read this first)](#starquickly-download-multiple-extensions)
-     - [Transparent Editor](#snowflaketransparent-editor)
+     - [transparent editor](#snowflaketransparent-editor)
     - [theme](#purple_hearttheme)
-     - [editing and beautifying the environment](#yellow_heart-beautifying-editor-and-editing-environment)
-     - [Must Have and Highly Recommended](#green_heart-must-have-highly-recommended)
-    - [Big Data and Artificial Intelligence Engineer-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
+     - [editor and beautifying environment](#yellow_heart-beautifying-editor-and-editing-environment)
+     - [must have and highly recommended](#green_heart-must-have-highly-recommended)
+    - [Big Data and AI Engineer-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
      - [Git and Markdown helper](#wavegitmarkdown-support)
      - [Remote WSL and Dev Container](#computer-remote-wsl--dev-container)
      - [Fixer](#wrenchfixer-fix-vscode-corrupt)
+     - [Copilot Assist](#codeium)
      - [Community Shares and Contributions](./share/README.md)
 
 ---
@@ -89,7 +89,7 @@ If you want to transfer the extension of the old computer to the new computer in
 ## :snowflake:Transparent editor
 The transparency effect is amazing.
 
-It can be used as a lazy tool (code while watching the video~).
+It can be used as a lazy tool (code while watching the video~) .
 
 You can use your own desktop background while coding and watching **Gura** .
 
@@ -125,7 +125,7 @@ oh! Wait a minute, here is a quick way to switch themes . After all, you may wan
 <img src="img/2023-03-25-16-10-51.png" width="60%">
 
 ### ButterTheme
-* As the name suggests, this is an eye-catching *cream yellow* theme
+* As the name suggests, this is an eye-catching *milk yellow* theme
 * A very rare theme (to put it bluntly, not many people use it), but the author likes it very much
 * If you can't find this theme, <a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">link</a>
 
@@ -302,7 +302,7 @@ The author knows that many people who use Python are not used to using vscode fo
 
 The plugin provides the following features:
 * :pushpin:**interactive mode**
-* :pushpin:**View variable data type and variable value** (such as Spyder, Pycharm)
+* :pushpin:** View variable data type and variable value** (such as Spyder, Pycharm)
 * :pushpin: **Execute code line by line** and **Execute part of code** (really useful, better than debugging~:heart_eyes :)
 
 > If you can understand Chinese, it is recommended to spend 5 minutes to quickly learn how to use the Jupyter plug-in (see <a href="https://www.bilibili.com/video/BV1Bg411J78F/" target="_blank" >link</a>)
@@ -403,7 +403,7 @@ The plugins described below are essential for developers working on Github or Gi
 <img src="img/2023-03-20-11-47-42.png" width="60%">
 
 ### Dev-Container
-* Using `Docker`, the entire development environment in vscode can run in the container, including editing, terminal, debugging, and executing .
+* Using `Docker`, the entire development environment inside vscode can run in the container, including editing, terminal, debugging, executing .
 
 * `Node.js`, `Python`, `Java`, etc. and other development tasks, only need to install `Docker` and vscode, no need to install the corresponding runtime and compiling software .
 
@@ -428,5 +428,37 @@ You can solve this problem with:
 > 5. `Developer: Reload Window`: restart VS Code.
 
 <img src="img/2023-03-17-21-36-48.png" width="60%">
+
+<a href="#top">Back to top</a>
+
+
+## :rocket: Copilot
+AI-assisted development tools similar to ChatGPT make everyone faster in the development process
+
+### Codeium
+* Completely **FREE** to use!
+*Comparison of functions with ChatGPT and Copilot
+* With this tool, you can:
+    * Automatic code generation
+    * automatically generates comments, `Docstring`
+    * automatically generates `Annotation hint`
+    * improve code quality
+
+    <img src="img/2023-06-02-11-36-02.png" width="60%" />
+
+* Instructions
+    * Click `Refactor` of the code block
+
+        <img src="img/2023-06-02-11-35-37.png" width="60%" />
+
+    * Select the processing you want, eg: `Add comments and docstrings to the code`
+
+        <img src="img/2023-06-02-11-35-48.png" width="60%" />
+
+    * generate `Codeium` chat blocks
+
+        <img src="img/2023-06-02-11-35-56.png" width="60%" />
+
+    * code extraction is complete!
 
 <a href="#top">Back to top</a>
