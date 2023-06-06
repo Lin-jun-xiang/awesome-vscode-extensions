@@ -14,48 +14,48 @@
 * 打開命令面板:`ctrl+shift+p`
 
 * 常用命令:
-    * `File: Open Folder`:打開文件夾作為工作空間.
-    * `Preferences: Color Theme`:為編輯器選擇顏色主題.
-    * `Preferences: File Icon Theme`:為文件選擇圖標主題.
-    * `Developer: Reload Window`:重新加載 VSCode 窗口.
+    * `File: Open Folder`:打開文件夾作為工作區 .
+    * `Preferences: Color Theme`:為編輯器 . 選擇顏色主題
+    * `Preferences: File Icon Theme`:為文件 . 選擇圖標主題
+    * `Developer: Reload Window`:重新加載 VSCode 窗口 .
 
 </details>
 
 ---
 
-* 記錄分享vscode擴展,包括提高開發效率、要點、主題美化等. .
-* 本項目將為每個擴展提供詳細的說明,希望能幫助全世界的碼農們一起愉快地編碼:sunglasses:
-* 本項目提供["**擴展分享區**"](./share/README.md),大家可以在這裡提交感興趣的擴展.
+* 記錄分享vscode擴展,包括開發效率提升、關鍵點、主題美化等. . .
+* 本項目將為每個擴展提供詳細的說明,希望能幫助全世界的coder們一起愉快地編碼:emoji_sunglasses:
+* 本項目提供["**擴展分享區**"](./share/README.md),感興趣的可以在這裡提交擴展.
 * 如果你想要 **Pull Request**,只需更新 `README.md`
 
-    ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main)會通過CI自動更新)
+    ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main) 會通過CI自動更新)
 
 * 擴展摘要:
-    - [快速下載多個擴展(先閱讀這個)](#starquickly-download-multiple-extensions)
-    - [透明編輯器](#snowflaketransparent-editor)
+     - [快速下載多個擴展(先閱讀這個)](#starquickly-download-multiple-extensions)
+     - [透明編輯器](#snowflaketransparent-editor)
     - [主題](#purple_hearttheme)
-    - [編輯器和環境美化](#yellow_heart-beautifying-editor-and-editing-environment)
-    - [必備和強烈推薦](#green_heart-must-have-highly-recommended)
-    - [大數據與AI工程師-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
-    - [Git 和 Markdown 助手](#wavegitmarkdown-support)
-    - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
-    - [修復器](#wrenchfixer-fix-vscode-corrupt)
-    - [Copilot 輔助](#codeium)
-    - [社區共享和貢獻](./share/README.md)
+     - [編輯和美化環境](#yellow_heart-beautifying-editor-and-editing-environment)
+     - [必須擁有並強烈推薦](#green_heart-must-have-highly-recommended)
+    - [大數據與人工智能工程師-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
+     - [Git 和 Markdown 助手](#wavegitmarkdown-support)
+     - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
+     - [修復器](#wrenchfixer-fix-vscode-corrupt)
+     - [副駕駛輔助](#codeium)
+     - [社區分享和貢獻](./share/README.md)
 
 ---
 
 ## :star:Quickly download multiple extensions
 後面會介紹很多vscode的擴展 . 這裡有一個技巧,不用一個一個的找.就可以快速下載很多擴展
 
-如果以後想把舊電腦的擴展轉移到新電腦上,也可以用這個方法:kissing:
+如果以後想把舊電腦的擴展轉移到新電腦上,也可以用這個方法:emoji_kissing:
 
 * 可以下載本項目自帶的`.ps1`文件,按照下面第三步排除不需要的擴展名.
 * 在`extensions.ps1`文件中,每個擴展名都有註釋.,請在執行安裝命令前刪除不需要的.
 
 > 方法:
 >
-> 1. 訪問當前電腦上vscode的所有擴展,輸出為文本 . 在終端(`powershell`)輸入如下命令:
+> 1. 訪問當前電腦上vscode的所有擴展,輸出為text . 在終端(`powershell`)輸入如下命令:
 > `code --list-extensions | ForEach-Object {"code --install-extension $_"} > extensions.ps1`
 >
 > 2. 命令執行後,會在當前目錄下得到`extensions.ps1`文件(文件名是命令執行時定義的).
@@ -89,7 +89,7 @@
 ## :snowflake:Transparent editor
 透明效果很贊.
 
-可以當個偷懶工具(邊看視頻邊碼字~).
+可以作為偷懶工具(邊看視頻邊碼字~).
 
 您可以在編碼和觀看時使用自己的桌面背景 **Gura** .
 
@@ -107,7 +107,7 @@
 
 ## :purple_heart:Theme
 
-使用vscode最大的原因就是要有`eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. 只有好看的編輯環境才能讓coder願意敲鍵盤~:sunglasses:
+使用vscode最大的原因就是有`eye-catching`, `elegant`, `comfortable`, `pleasant editing interface`. 只有好看的編輯環境才能讓coder願意敲鍵盤~:sunglasses:
 
 接下來,我將我最喜歡的話題一一分享給大家(以下示例均基於Python,不同語言可能略有差異)
 
@@ -120,19 +120,19 @@
 > "Preferences:Color Theme": 進入並選擇你想要的主題
 
 ### Arc Dark for Visual Studio Code
-* 主題有點類似於Visual Studio Code的深色主題,但是整體色調更加柔和,類似於馬卡龍的顏色.
+* 主題有點類似Visual Studio Code的深色主題,但是整體色調更柔和一些,類似馬卡龍的顏色.
 
 <img src="img/2023-03-25-16-10-51.png" width="60%">
 
 ### ButterTheme
-* 顧名思義,這是一款養眼的*奶黃色*主題
+* 顧名思義,這是一款吸睛的*奶黃色*主題
 * 非常難得的一個主題(說白了,用的人不多),但是作者很喜歡
 * 如果找不到這個主題,<a href="https://marketplace.visualstudio.com/items?itemName=Levampire.Buttur" target="_blank">鏈接</a>
 
 <img src="img/2023-03-17-14-36-15.png" width="60%">
 
 ### Coder200
-* 這次光看名字完全不認識...
+* 這次光看名字不知道...
 * 稀有主題,充滿*橙色*,好性感~:flushed:
 
 <img src="img/2023-03-17-14-44-30.png" width="60%">
@@ -148,13 +148,18 @@
 
 <img src="img/2023-03-17-14-51-36.png" width="60%">
 
+### Github Theme
+* 不容忽視的經典題材之一
+
+<img src="img/2023-06-06-15-03-29.png" width="60%">
+
 ### LaserWave
-* 具有日落感覺的*紫粉色*主題
+* 帶有日落感覺的*紫粉色*主題
 
 <img src="img/2023-03-17-20-17-56.png" width="60%">
 
 ### Moegi Theme
-* 溫柔嫵媚的主題
+* 溫柔迷人的主題
 
 <img src="img/2023-03-17-20-20-13.png" width="60%">
 
@@ -169,7 +174,7 @@
 <img src="img/2023-03-17-20-36-31.png" width="60%">
 
 ### Panda Theme
-* *Lake Green* :panda_face: 一流的主題:
+* *Lake Green* :panda_face: 頂級主題:
 * 這個主題真的很酷！
 
 <img src="img/2023-03-17-20-21-23.png" width="60%">
@@ -185,8 +190,8 @@
 <img src="img/2023-03-17-20-25-15.png" width="60%">
 
 ### SynthWave '84
-* 超高科技,炫目熒光主題:sunglasses:
-* 選擇主題後記得開啟熒光效果(也可以搭配其他主題色:emoji_fu :)
+* 超高科技,炫目熒光主題:emoji_sunglasses:
+* 記得選擇主題後開啟熒光效果(也可以搭配其他主題色:emoji_emoji_fu :)
 
 > 啟用熒光模式:
 >
@@ -220,11 +225,11 @@
 
 ---
 ## :yellow_heart: Beautifying editor and editing environment
-裝修完我們小編,接下來要介紹的插件不僅可以增加美感,還可以提高工作效率~
+裝修完之後小編就來介紹一下既能增加美感又能提高工作效率的插件~
 
 ### Color Highlight
 * 如果你是**前端**工程師或**數據分析師**,並且經常需要做**視覺**工作,一定要下載這個！
-* 編輯的時候,只要有**16進制**的顏色表達,就可以很清楚的看到顏色(顏色好看就不用跑代碼了).
+* 編輯的時候只要有**16進制**的顏色表達就可以很清楚的看到顏色(顏色好看就不用跑代碼了).
 
 <img src="img/2023-03-17-20-48-11.png" width="60%">
 
@@ -246,7 +251,7 @@
 ## :green_heart: Must-have, highly recommended
 下面要介紹的插件真的好用！
 
-大部分可以提高開發效率,不要錯過:heart_eyes:
+大部分可以提高開發效率,不要錯過:emoji_heart_eyes:
 
 ### Code Runner
 * 相信用過VSCode的朋友應該對這個插件不陌生吧！ ？
@@ -256,7 +261,7 @@
 <img src="img/2023-03-17-20-59-33.png" width="60%">
 
 ### Comment Divider
-* 使用快捷鍵生成漂亮的**評論樣式**.
+* 使用快捷鍵生成漂亮的**評論樣式** .
 * 如下圖,可以看到兩種樣式:`Shift+Alt+x`和`Alt+x`.
 
 <img src="img/2023-03-17-21-03-04.png" width="60%">
@@ -265,7 +270,7 @@
 * 這個插件是由 . 為 Python 開發者引入的
 * 使用快捷鍵快速生成**Docstring**風格的註釋.
 * 描述函數的用途、參數、返回值等信息.
-* 支持不同的**Docstring**風格,如google、sphinx、numpy等. .
+* 支持不同的**Docstring**風格,如google、sphinx、numpy等. . .
 
 > 使用方法:在要生成評論的地方按下面的鍵
 Windows:`ctrl+shift+2`
@@ -276,15 +281,15 @@ Windows:`ctrl+shift+2`
 ### Draw.io Integration
 * 流程圖繪製工具
 * 設計項目時,可以使用本插件規劃可行性.
-* 可作為筆記工具使用 .
-* 支持很多常用模式,比如穀歌云平台代表功能符號(如圖).
+* 可用作筆記工具 .
+* 支持多種常用模式,如穀歌云平台代表功能符號(如圖).
 
 <img src="img/2023-03-17-21-14-00.png" width="60%">
 
 ### Path Intellisense
 * 編碼時有這個插件真的很酷:kissing_heart:
-* 適合經常讀寫文件的coder .
-* 寫路徑的時候會自動列出你要查找的路徑下的文件.
+* 適合頻繁讀寫文件的coder .
+* 寫路徑的時候會自動列出你要查找的路徑下的文件 .
 
 <img src="img/2023-03-17-21-17-09.png" width="60%">
 
@@ -296,16 +301,16 @@ Windows:`ctrl+shift+2`
 這裡介紹的插件真的很強大！
 
 筆者知道很多使用Python的人都不習慣使用vscode,原因有很多:
-* 互動模式
+* 交互模式
 * 查看變量數據類型和變量值(就像在Spyder、Pycharm中一樣)
 * 逐行執行代碼,執行部分代碼(真的很實用,比Debug好用~:heart_eyes:)
 
 該插件提供以下功能:
 * :pushpin:**交互模式**
-* :pushpin:**查看變量數據類型和變量值**(如Spyder、Pycharm)
+* :pushpin:** 查看變量數據類型和變量值**(如Spyder、Pycharm)
 * :pushpin: **逐行執行代碼**和**執行部分代碼**(真的很有用,比調試好~:heart_eyes :)
 
-> 如果你能看懂中文,建議花5分鐘快速學會Jupyter插件的使用方法(見<a href="https://www.bilibili.com/video/BV1Bg411J78F/" target ="_blank">鏈接</a>)
+> 如果你能看懂中文,建議花5分鐘快速學會Jupyter插件的使用方法(見<a href="https://www.bilibili.com/video/BV1Bg411J78F/ " target="_blank" >鏈接</a>)
 
 > 用法:
 >
@@ -320,22 +325,22 @@ Windows:`ctrl+shift+2`
 > 1. 右鍵單擊腳本中的 .
 > 2. 選擇 `Run Current File in Interactive Window`
 (建議設置一個VS Code快捷鍵,我設置為`F10`).
-> 3 . `Interactive` 窗口 . 執行後會出現
+> 3 . 執行 . 後會出現 `Interactive` 窗口
 >
 ><img src="img/2023-03-17-21-54-03.png" width="40%">
 ><img src="img/2023-03-17-21-57-03.png" width="40%">
 
 > :bulb:**查看變量數據類型和變量值**(需要處於交互模式)
 >
-> 在交互窗口中點擊 *Variables*.
+> 在交互窗口中單擊 *Variables*.
 >
 ><img src="img/2023-03-20-13-17.PNG" width="60%">
 
 > :bulb: **逐行或部分執行**
 >
 > 1. 選擇要執行的代碼(可以是一行或多行) .
-> 2. 右鍵單擊所選代碼.
-> 3 . SELECT *在交互式窗口中運行選擇/行* .
+> 2. 右鍵單擊所選代碼 .
+> 3 . SELECT * 在交互式窗口中運行選擇/行 * .
 >
 ><img src="img/2023-03-17-22-04-33.png" width="60%">
 
@@ -348,7 +353,7 @@ Windows:`ctrl+shift+2`
 
 ### GitLens
 * 下載後,腳本代碼將顯示**哪些**部分被**修改**,**誰**進行了更改,**何時**修改了.
-* 注意屏幕右側.`170`行有綠線表示有新代碼記錄(紅色表示刪除代碼).
+* 注意屏幕右側的.`170`行有綠線表示有新的代碼記錄(紅色表示刪除代碼).
 * 請記住使用 `git` 跟踪項目以使該插件工作 .
 
 <img src="img/2023-03-17-22-08-15.png" width="60%">
@@ -356,7 +361,7 @@ Windows:`ctrl+shift+2`
 <details>
 <summary>More for GitLens</summary>
 
-* 比較兩個提交的詳細**差異**
+* 比較兩個具有詳細**差異**的提交
     * `COMMITS`:選擇要與HEAD比較的提交(step1~2)
     * `SEARCH & COMPARE`:選擇更改的文件(第 3 步)
     * `diff`:正確的文件是 HEAD(第 4 步)
@@ -376,12 +381,12 @@ Windows:`ctrl+shift+2`
 ### Paste Image
 * 將圖像直接從剪貼板粘貼到 markdown/asciidoc(或其他文件)！
 * 用法
-    * 截屏到剪貼板
-    * 使用默認鍵盤綁定:`Ctrl+Alt+V`(Mac 上為 `Cmd+Alt+V`).
+    * 屏幕截圖到剪貼板
+    * 使用默認鍵綁定:`Ctrl+Alt+V`(Mac 上為 `Cmd+Alt+V`).
     * 圖像將保存在包含當前編輯文件的文件夾中
-    * 相對路徑將被粘貼到當前編輯文件
+    * 相對路徑將粘貼到當前編輯的文件
 
-* 您可以在 settings. 中配置 `imagePath`
+* 你可以在settings.中配置`imagePath`
 
     <img src="img/2023-05-27-15-53-03.png" width="60%" />
 
@@ -414,9 +419,9 @@ Windows:`ctrl+shift+2`
 ---
 
 ## :wrench:Fixer (Fix Vscode Corrupt)
-有時,在卸載插件時,VS Code 窗口的右下角會出現如下錯誤信息:
+有時,卸載插件時,VS Code窗口右下角會出現如下錯誤信息:
 
-<img src="https://user-images.githubusercontent.com/63782903/231321298-916da9d3-0e90-4bd5-bfc6-859371545ec7.png" width="60%" />
+<img src="https://user-images.githubusercontent.com/63782903/231321298-916da9d3-0e90-4bd5-bfc6-859371545ec7.png" width="40%" />
 
 您可以使用以下方法解決此問題:
 
@@ -424,7 +429,7 @@ Windows:`ctrl+shift+2`
 > 1. 下載修復 VSCode 校驗和插件 .
 > 2. `ctrl+shift+p`: 打開命令調色板 .
 > 3. `Fix ChecksumS: Apply`:執行修復 .
-> 4. `ctrl+shift+p`:打開命令調色板 .
+> 4. `ctrl+shift+p`: 打開命令調色板 .
 > 5. `Developer: Reload Window`: 重啟 VS Code.
 
 <img src="img/2023-03-17-21-36-48.png" width="60%">
@@ -433,32 +438,32 @@ Windows:`ctrl+shift+2`
 
 
 ## :rocket: Copilot
-類似 ChatGPT 的 AI 輔助開發工具，讓大家在開發過程中更快速
+類似ChatGPT的AI輔助開發工具,讓大家在開發過程中更快
 
 ### Codeium
-* 完全**免費**使用 !
-* 功能與 ChatGPT、Copilot 勘比
-* 使用該工具，您可以:
-    * 自動生成代碼
-    * 自動生成註解、`Docstring`
+* 完全**免費**使用！
+*與ChatGPT和Copilot的功能對比
+* 使用此工具,您可以:
+    * 自動代碼生成
+    * 自動生成註釋,`Docstring`
     * 自動生成 `Annotation hint`
     * 提高代碼質量
 
-    <img src="img/2023-06-02-11-36-02.png" width="60%" />
+    <img src="img/2023-06-02-11-36-02.png" width="40%" />
 
-* 使用方法
-    * 點選代碼區塊的 `Refactor`
+* 指示
+    * 單擊代碼塊的 `Refactor`
 
         <img src="img/2023-06-02-11-35-37.png" width="60%" />
 
-    * 選擇您要進行的處理，例如: `Add comments and docstrings to the code`
+    * 選擇你想要的處理,eg: `Add comments and docstrings to the code`
 
-        <img src="img/2023-06-02-11-35-48.png" width="60%" />
+        <img src="img/2023-06-06-15-00-52.png" width="50%" />
 
-    * 生成 `Codeium` 聊天區塊
+    * 生成 `Codeium` 聊天塊
 
-        <img src="img/2023-06-02-11-35-56.png" width="60%" />
+        <img src="img/2023-06-06-15-05-18.png" width="40%" />
 
-    * 代碼提煉完成!
+    * 代碼提取完成！
 
 <a href="#top">Back to top</a>
