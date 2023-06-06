@@ -148,6 +148,11 @@ oh! Wait a minute, here is a quick way to switch themes . After all, you may wan
 
 <img src="img/2023-03-17-14-51-36.png" width="60%">
 
+### Github Theme
+* One of the classic themes that cannot be ignored
+
+<img src="img/2023-06-06-15-03-29.png" width="60%">
+
 ### LaserWave
 * A *purple pink* theme with a sunset feel
 
@@ -416,7 +421,7 @@ The plugins described below are essential for developers working on Github or Gi
 ## :wrench:Fixer (Fix Vscode Corrupt)
 Sometimes, when uninstalling the plugin, the following error message will appear in the lower right corner of the VS Code window:
 
-<img src="https://user-images.githubusercontent.com/63782903/231321298-916da9d3-0e90-4bd5-bfc6-859371545ec7.png" width="60%" />
+<img src="https://user-images.githubusercontent.com/63782903/231321298-916da9d3-0e90-4bd5-bfc6-859371545ec7.png" width="40%" />
 
 You can solve this problem with:
 
@@ -444,7 +449,7 @@ AI-assisted development tools similar to ChatGPT make everyone faster in the dev
     * automatically generates `Annotation hint`
     * improve code quality
 
-    <img src="img/2023-06-02-11-36-02.png" width="60%" />
+    <img src="img/2023-06-02-11-36-02.png" width="40%" />
 
 * Instructions
     * Click `Refactor` of the code block
@@ -453,11 +458,11 @@ AI-assisted development tools similar to ChatGPT make everyone faster in the dev
 
     * Select the processing you want, eg: `Add comments and docstrings to the code`
 
-        <img src="img/2023-06-02-11-35-48.png" width="60%" />
+        <img src="img/2023-06-06-15-00-52.png" width="50%" />
 
     * generate `Codeium` chat blocks
 
-        <img src="img/2023-06-02-11-35-56.png" width="60%" />
+        <img src="img/2023-06-06-15-05-18.png" width="40%" />
 
     * code extraction is complete!
 
