@@ -4,22 +4,7 @@
     <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please .;Any+questions+can+be+asked+in+Issue." />
 </div>
 
-[中文版README.md](README.zh-TW.md)
-
-<details>
-<summary>Vscode Common Commands</summary>
-
-* Using the vscode command panel can increase the development speed .
-
-* Open command panel: `ctrl+shift+p`
-
-* Common commands:
-    * `File: Open Folder`: open folder as workspace .
-    * `Preferences: Color Theme`: select color theme for editor .
-    * `Preferences: File Icon Theme`: select icon theme for file .
-    * `Developer: Reload Window`: Reload VSCode window .
-
-</details>
+[En README](README.md) | [中文版說明檔](README.zh-TW.md)
 
 ---
 
@@ -42,6 +27,21 @@
      - [Fixer](#wrenchfixer-fix-vscode-corrupt)
      - [Copilot Assist](#codeium)
      - [Community Shares and Contributions](./share/README.md)
+
+<details>
+<summary>Vscode Common Commands</summary>
+
+* Using the vscode command panel can increase the development speed .
+
+* Open command panel: `ctrl+shift+p`
+
+* Common commands:
+    * `File: Open Folder`: open folder as workspace .
+    * `Preferences: Color Theme`: select color theme for editor .
+    * `Preferences: File Icon Theme`: select icon theme for file .
+    * `Developer: Reload Window`: Reload VSCode window .
+
+</details>
 
 ---
 
@@ -67,7 +67,7 @@ If you want to transfer the extension of the old computer to the new computer in
 > <img src="https://user-images.githubusercontent.com/63782903/226086537-1dddd375-3206-44db-8208-17715d70c744.png" width="60%">
 
 <details>
-<summary>Missing Extensions</summary>
+<summary>Find Missing Extensions</summary>
 
 * [`extensions-compare`](./extensions_compare/)
 
