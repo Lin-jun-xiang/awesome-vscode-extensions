@@ -4,7 +4,29 @@
     <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+請 .;Any+questions+can+be+asked+in+Issue." />
 </div>
 
-[中文版README.md](README.zh-TW.md)
+[En README](README.md) | [中文版說明文件](README.zh-TW.md)
+
+---
+
+* 記錄分享vscode擴展,包括開發效率提升、關鍵點、主題美化等. . .
+* 本項目將為每個擴展提供詳細的說明,希望能幫助全世界的coder們一起愉快地編碼:emoji_sunglasses:
+* 本項目提供["**擴展分享區**"](./share/README.md),感興趣的可以在這裡提交擴展.
+* 如果你想要 **Pull Request**,只需更新 `README.md`
+
+    ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main)會通過CI自動更新)
+
+* 擴展摘要:
+     - [快速下載多個擴展(先閱讀這個)](#starquickly-download-multiple-extensions)
+     - [透明編輯器](#snowflaketransparent-editor)
+    - [主題](#purple_hearttheme)
+     - [編輯和美化環境](#yellow_heart-beautifying-editor-and-editing-environment)
+     - [必須擁有並強烈推薦](#green_heart-must-have-highly-recommended)
+    - [大數據與人工智能工程師-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
+     - [Git 和 Markdown 助手](#wavegitmarkdown-support)
+     - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
+     - [修復器](#wrenchfixer-fix-vscode-corrupt)
+     - [副駕駛輔助](#codeium)
+     - [社區分享和貢獻](./share/README.md)
 
 <details>
 <summary>Vscode Common Commands</summary>
@@ -23,30 +45,8 @@
 
 ---
 
-* 記錄分享vscode擴展,包括開發效率提升、關鍵點、主題美化等. . .
-* 本項目將為每個擴展提供詳細的說明,希望能幫助全世界的coder們一起愉快地編碼:emoji_sunglasses:
-* 本項目提供["**擴展分享區**"](./share/README.md),感興趣的可以在這裡提交擴展.
-* 如果你想要 **Pull Request**,只需更新 `README.md`
-
-    ([`README.zh-TW.md`](https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main) 會通過CI自動更新)
-
-* 擴展摘要:
-     - [快速下載多個擴展(先閱讀這個)](#starquickly-download-multiple-extensions)
-     - [透明編輯器](#snowflaketransparent-editor)
-    - [主題](#purple_hearttheme)
-     - [編輯和美化環境](#yellow_heart-beautifying-editor-and-editing-environment)
-     - [必須擁有並強烈推薦](#green_heart-must-have-highly-recommended)
-    - [大數據與人工智能工程師-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
-     - [Git 和 Markdown 助手](#wavegitmarkdown-support)
-     - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
-     - [修復器](#wrenchfixer-fix-vscode-corrupt)
-     - [副駕駛輔助](#codeium)
-     - [社區分享和貢獻](./share/README.md)
-
----
-
 ## :star:Quickly download multiple extensions
-後面會介紹很多vscode的擴展 . 這裡有一個技巧,不用一個一個的找.就可以快速下載很多擴展
+後面會介紹很多vscode的擴展 . 這裡有一個技巧,你可以快速下載很多擴展,而不需要一個一個地尋找.
 
 如果以後想把舊電腦的擴展轉移到新電腦上,也可以用這個方法:emoji_kissing:
 
@@ -67,7 +67,7 @@
 > <img src="https://user-images.githubusercontent.com/63782903/226086537-1dddd375-3206-44db-8208-17715d70c744.png" width="60%">
 
 <details>
-<summary>Missing Extensions</summary>
+<summary>Find Missing Extensions</summary>
 
 * [`extensions-compare`](./extensions_compare/)
 
@@ -154,7 +154,7 @@
 <img src="img/2023-06-06-15-03-29.png" width="60%">
 
 ### LaserWave
-* 帶有日落感覺的*紫粉色*主題
+* 具有日落感覺的*紫粉色*主題
 
 <img src="img/2023-03-17-20-17-56.png" width="60%">
 
@@ -235,7 +235,7 @@
 
 ### Material Theme Icons
 * 不同的文件擴展名有不同的圖標
-* 不僅好看而且可以更快地找到文件.
+* 不僅好看而且找不到文件更快%_not_%
 
 <img src="img/2023-03-17-20-51-07.png" width="60%">
 
@@ -301,7 +301,7 @@ Windows:`ctrl+shift+2`
 這裡介紹的插件真的很強大！
 
 筆者知道很多使用Python的人都不習慣使用vscode,原因有很多:
-* 交互模式
+* 互動模式
 * 查看變量數據類型和變量值(就像在Spyder、Pycharm中一樣)
 * 逐行執行代碼,執行部分代碼(真的很實用,比Debug好用~:heart_eyes:)
 
@@ -332,7 +332,7 @@ Windows:`ctrl+shift+2`
 
 > :bulb:**查看變量數據類型和變量值**(需要處於交互模式)
 >
-> 在交互窗口中單擊 *Variables*.
+> 在交互窗口中點擊 *Variables*.
 >
 ><img src="img/2023-03-20-13-17.PNG" width="60%">
 
