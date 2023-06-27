@@ -24,6 +24,7 @@
     - [Big Data and AI Engineer-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
      - [Git and Markdown helper](#wavegitmarkdown-support)
      - [Remote WSL and Dev Container](#computer-remote-wsl--dev-container)
+     - [Remote-SSH: How to connect VSCode to Colab?](#computer-remote-ssl)
      - [Fixer](#wrenchfixer-fix-vscode-corrupt)
      - [Copilot Assist](#codeium)
      - [Community Shares and Contributions](./share/README.md)
@@ -370,6 +371,13 @@ The plugins described below are essential for developers working on Github or Gi
 
 </details>
 
+### Markdown All in One
+* Using Markdown syntax in the vscode editor.
+* It provides automatic generation of table of contents.
+* It offers special shortcuts for Markdown, such as using `Ctrl+B` for bold formatting.
+
+<img src='img/2023-06-27-20-42-05.png' width='60%' />
+
 ### Markdown Preview Enhanced
 * When writing `.md` file, you can preview the result .
 * Press `ctrl+k`, then `v` to open preview window .
@@ -415,6 +423,92 @@ The plugins described below are essential for developers working on Github or Gi
 <img src="img/2023-03-20-11-48-43.png" width="60%">
 
 <a href="#top">Back to top</a>
+
+---
+
+## :computer: Remote-SSL
+
+The Remote - SSH extension lets you use any remote machine with a SSH server as your development environment. This can greatly simplify development and troubleshooting in a wide variety of situations. You can:
+* Develop on the same operating system you deploy to or use larger, faster, or more specialized hardware than your local machine.
+* Quickly swap between different, remote development environments and safely make updates without worrying about impacting your local machine.
+* Access an existing development environment from multiple machines or locations.
+Debug an application running somewhere else such as a customer site or in the cloud.
+
+<img src='img/2023-06-27-20-45-53.png' width='60%' />
+
+
+Next, let's take an example of connecting VS Code to Colab:
+
+#### Connect VSCode to Colab
+[Please refer to the official documentation for instructions](https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb)
+
+Remeber you only need to perform steps 6, 8, 9, and 10 once
+
+1. Open Colab.
+2. Execute the following code to connect to Google Drive. You will see your Drive file manager appear next to Colab.
+    
+    ```python
+    from google.colab import drive
+    drive.mount("/content/drive")
+    ```
+
+3. Create a file named `config.env` in your Google Drive, for example:
+   
+   ```python
+   # /content/drive/MyDrive/Colab/config.env
+   PASSWORD=1234567
+   ```
+
+4. Read the `config.env` file in Google Drive to obtain the password needed for SSH later.
+   
+   ```python
+   !pip install python-dotenv --quiet
+    import dotenv
+    import os
+
+    dotenv.load_dotenv(
+            os.path.join('/content/drive/MyDrive/Colab/', 'config.env')
+    )
+    password = os.getenv('PASSWORD')
+   ```
+
+5. Perform SSH using Cloudflared to obtain the remote host (URL that will be used later).
+   
+   ```python
+    # Install colab_ssh on google colab
+    !pip install colab_ssh --upgrade --quiet
+    from colab_ssh import launch_ssh_cloudflared, init_git_cloudflared
+    launch_ssh_cloudflared(password)
+   ```
+
+    <img src='img/2023-06-27-21-06-42.png' width='60%' />
+
+6. Download [Cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/) to any location on your local machine.
+   
+7. Install the `Remote-SSH` extension in VS Code.
+
+8. Use the VS Code command `Ctrl+Shift+P` and enter `remote-ssh: connect to host`.
+
+9.  Select `configure ssh hosts` then `c:\users<name>.ssh\config`.
+
+10. Paste the following code, making sure to fill in the path with the location where Cloudflared was downloaded!
+
+    ```python
+    Host *.trycloudflare.com
+        HostName %h
+        User root
+        Port 22
+        ProxyCommand <PUT_THE_ABSOLUTE_CLOUDFLARE_PATH_HERE> access ssh --hostname %h
+    ```    
+
+11. Use the VS Code command `Ctrl+Shift+P` and enter `remote-ssh: connect to host`.
+12. Select `add new ssh host` and enter the URL from step 5.
+13. Enter the password from `config.env`.
+
+14. After creating new vscode window, choose the OS System.
+
+15. Fucking Finished!
+
 
 ---
 
