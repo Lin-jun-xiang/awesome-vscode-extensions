@@ -447,21 +447,21 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 1. Open Colab.
 2. Execute the following code to connect to Google Drive. You will see your Drive file manager appear next to Colab.
     
-    ```python
+    ```
     from google.colab import drive
     drive.mount("/content/drive")
     ```
 
 3. Create a file named `config.env` in your Google Drive, for example:
    
-   ```python
+   ```
    # /content/drive/MyDrive/Colab/config.env
    PASSWORD=1234567
    ```
 
 4. Read the `config.env` file in Google Drive to obtain the password needed for SSH later.
    
-   ```python
+   ```
    !pip install python-dotenv --quiet
     import dotenv
     import os
@@ -474,7 +474,7 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 
 5. Perform SSH using Cloudflared to obtain the remote host (URL that will be used later).
    
-   ```python
+   ```
     # Install colab_ssh on google colab
     !pip install colab_ssh --upgrade --quiet
     from colab_ssh import launch_ssh_cloudflared, init_git_cloudflared
@@ -493,7 +493,7 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 
 10. Paste the following code, making sure to fill in the path with the location where Cloudflared was downloaded!
 
-    ```python
+    ```
     Host *.trycloudflare.com
         HostName %h
         User root
@@ -507,8 +507,9 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 
 14. After creating new vscode window, choose the OS System.
 
-15. Fucking Finished!
+15. Finished!
 
+<a href="#top">Back to top</a>
 
 ---
 
@@ -529,7 +530,6 @@ You can solve this problem with:
 <img src="img/2023-03-17-21-36-48.png" width="60%">
 
 <a href="#top">Back to top</a>
-
 
 ## :rocket: Copilot
 AI-assisted development tools similar to ChatGPT make everyone faster in the development process
