@@ -440,11 +440,16 @@ Debug an application running somewhere else such as a customer site or in the cl
 Next, let's take an example of connecting VS Code to Colab:
 
 #### Connect VSCode to Colab
-[Please refer to the official documentation for instructions](https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb)
+
+Please refer to the official documentation for instructions:
+
+https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb
 
 Remeber you only need to perform steps 6, 8, 9, and 10 once
 
+
 1. Open Colab.
+
 2. Execute the following code to connect to Google Drive. You will see your Drive file manager appear next to Colab.
     
     ```
@@ -483,7 +488,7 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 
     <img src='img/2023-06-27-21-06-42.png' width='60%' />
 
-6. Download [Cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/) to any location on your local machine.
+6. Download Cloudflared to any location on your local machine. [link](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/)
    
 7. Install the `Remote-SSH` extension in VS Code.
 
@@ -528,6 +533,7 @@ You can solve this problem with:
 > 5. `Developer: Reload Window`: restart VS Code.
 
 <img src="img/2023-03-17-21-36-48.png" width="60%">
+
 
 <a href="#top">Back to top</a>
 
