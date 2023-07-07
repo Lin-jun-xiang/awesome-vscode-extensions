@@ -24,6 +24,7 @@
     - [大數據與人工智能工程師-Jupyter(Python)](#star2big-data-ai-engineer---jupyter-python)
      - [Git 和 Markdown 助手](#wavegitmarkdown-support)
      - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
+     - [遠端 SSH: 如何連接 VSCode 與 Colab?](#computer-remote-ssl)
      - [修復器](#wrenchfixer-fix-vscode-corrupt)
      - [副駕駛輔助](#codeium)
      - [社區分享和貢獻](./share/README.md)
@@ -48,7 +49,9 @@
 ## :star:Quickly download multiple extensions
 後面會介紹很多vscode的擴展 . 這裡有一個技巧,你可以快速下載很多擴展,而不需要一個一個地尋找.
 
-如果以後想把舊電腦的擴展轉移到新電腦上,也可以用這個方法:emoji_kissing:
+:warning: 如果你具備比較高版本的 vscode，你可以省略以下介紹的方法，直接前往[此處](#star-quickly-download-multiple-extensions-for-new-version-vscode)!
+
+如果以後想把舊電腦的擴展轉移到新電腦上,也可以用這個方法 :kissing:
 
 * 可以下載本項目自帶的`.ps1`文件,按照下面第三步排除不需要的擴展名.
 * 在`extensions.ps1`文件中,每個擴展名都有註釋.,請在執行安裝命令前刪除不需要的.
@@ -83,6 +86,13 @@
 
         <img src="img/2023-04-19-11-07-16.png">
 </details>
+
+### :star: Quickly download multiple extensions (for new version vscode)
+
+直接點選 `Profile`, 接著便能進行導入與導出插件的動作
+
+<img src='img/2023-07-07-21-22-20.png' width='60%' />
+
 
 ---
 
@@ -370,6 +380,14 @@ Windows:`ctrl+shift+2`
 
 </details>
 
+### Markdown All in One
+* 在 vscode 編輯器中使用 Markdown 語法。
+* 提供自動生成目錄的功能。
+* 提供 Markdown 的特殊快捷方式，例如使用 `Ctrl+B` 進行粗體格式。
+
+<img src='img/2023-06-27-20-42-05.png' width='60%' />
+
+
 ### Markdown Preview Enhanced
 * 寫入`.md`文件時,可以預覽結果.
 * 按 `ctrl+k`,然後按 `v` 打開預覽窗口 .
@@ -406,6 +424,97 @@ Windows:`ctrl+shift+2`
 > 2 . `WSL: New WSL Window`: 在 vscode . 中打開 `WSL` 環境
 
 <img src="img/2023-03-20-11-47-42.png" width="60%">
+
+<a href="#top">Back to top</a>
+
+## :computer: Remote-SSL
+
+Remote - SSH 擴展功能讓您可以將任何具有 SSH 伺服器的遠端機器用作開發環境。這可以在各種情況下大大簡化開發和故障排除的流程。您可以：
+* 在與部署相同的操作系統上進行開發，或使用比本機機器更大、更快或更專門的硬體設備。
+* 快速切換不同的遠端開發環境，並安全地進行更新，而無需擔心影響本機機器。
+* 從多台機器或地點訪問現有的開發環境。
+* 調試在其他位置運行的應用程序，例如客戶現場或雲端。
+
+<img src='img/2023-06-27-20-45-53.png' width='60%' />
+
+接下來，讓我們以將 VS Code 連接到 Colab 的示例說明：
+
+#### 將 VS Code 連接到 Colab
+
+請參閱官方文件以獲取指示：
+
+[從本地 VS Code 連接到 Colab](https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb)
+
+請記住，您只需要執行第 6、8、9 和 10 步一次即可
+
+1. 打開 Colab。
+
+2. 執行以下程式碼以連接到 Google Drive。您將看到您的 Drive 檔案管理器出現在 Colab 旁邊。
+    
+    ```python
+    from google.colab import drive
+    drive.mount("/content/drive")
+    ```
+
+3. 在 Google Drive 中創建名為 `config.env` 的檔案，例如：
+
+   ```
+   # /content/drive/MyDrive/Colab/config.env
+   PASSWORD=1234567
+   ```
+
+4. 從 Google Drive 中讀取 `config.env` 檔案以獲取稍後 SSH 所需的密碼。
+
+   ```python
+   # !pip install python-dotenv --quiet
+    import dotenv
+    import os
+
+    dotenv.load_dotenv(
+            os.path.join('/content/drive/MyDrive/Colab/', 'config.env')
+    )
+    password = os.getenv('PASSWORD')
+   ```
+
+5. 使用 Cloudflared 執行 SSH，以獲取遠端主機（稍後將使用的 URL）。
+
+   ```python
+    # Install colab_ssh on google colab
+    # !pip install colab_ssh --upgrade --quiet
+    from colab_ssh import launch_ssh_cloudflared, init_git_cloudflared
+    launch_ssh_cloudflared(password)
+   ```
+
+    <img src='img/2023-06-27-21-06-42.png' width='60%' />
+
+6. 將 Cloudflared 下載到本機的任意位置。[連結](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/)
+
+7. 在 VS Code 中安裝 `Remote-SSH` 擴展功能。
+
+8. 使用 VS Code 命令 `Ctrl+Shift+P`，然後輸入 `remote-ssh: connect to host`。
+
+9. 選擇 `configure ssh hosts`，然後選擇 `c:\users<name>.ssh\config`。
+
+10. 貼上以下程式碼，請確保填入 Cloudflared 下載的位置！
+
+    ```
+    Host *.trycloudflare.com
+        HostName %h
+        User root
+        Port 22
+        ProxyCommand <PUT_THE_ABSOLUTE_CLOUDFLARE_PATH_HERE> access ssh --hostname %h
+    ```    
+
+11. 使用 VS Code 命令 `Ctrl+Shift+P`，然後輸入 `remote-ssh: connect to host`。
+12. 選擇 `add new ssh host`，然後輸入第 5 步的 URL。
+13. 輸入 `config.env` 中的密碼
+14. 等待開啟新的 vscode 視窗，選擇您要的作業系統
+15. 完成
+
+<a href="#top">Back to top</a>
+
+---
+
 
 ### Dev-Container
 * 使用`Docker`,vscode內部的整個開發環境都可以在容器中運行,包括編輯、終端、調試、執行.

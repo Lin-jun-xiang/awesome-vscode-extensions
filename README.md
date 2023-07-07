@@ -47,9 +47,11 @@
 ---
 
 ## :star:Quickly download multiple extensions
-I will introduce a lot of vscode extensions later . There is a trick here, you can quickly download many extensions without looking for . one by one
+I will introduce a lot of vscode extensions later . There is a trick here, you can quickly download many extensions without looking for . one by one.
 
-If you want to transfer the extension of the old computer to the new computer in the future, you can also use this method: emoji_kissing:
+:warning: If you have high version vscode, you can jump over the following method, just go to [here](#star-quickly-download-multiple-extensions-for-new-version-vscode)
+
+If you want to transfer the extension of the old computer to the new computer in the future, you can also use this method :kissing:
 
 * You can download the `.ps1` file that comes with this project, follow the third step below to exclude the unnecessary extension .
 * In the `extensions.ps1` file, each extension has a comment ., please delete the unnecessary . before executing the installation command
@@ -84,6 +86,12 @@ If you want to transfer the extension of the old computer to the new computer in
 
         <img src="img/2023-04-19-11-07-16.png">
 </details>
+
+### :star: Quickly download multiple extensions (for new version vscode)
+
+Just click the `Profile`, then you can import or export the extensions.
+
+<img src='img/2023-07-07-21-22-20.png' width='60%' />
 
 ---
 
@@ -452,7 +460,7 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 
 2. Execute the following code to connect to Google Drive. You will see your Drive file manager appear next to Colab.
     
-    ```
+    ```python
     from google.colab import drive
     drive.mount("/content/drive")
     ```
@@ -466,8 +474,8 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 
 4. Read the `config.env` file in Google Drive to obtain the password needed for SSH later.
    
-   ```
-   !pip install python-dotenv --quiet
+   ```python
+   # !pip install python-dotenv --quiet
     import dotenv
     import os
 
@@ -479,9 +487,9 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 
 5. Perform SSH using Cloudflared to obtain the remote host (URL that will be used later).
    
-   ```
+   ```python
     # Install colab_ssh on google colab
-    !pip install colab_ssh --upgrade --quiet
+    # !pip install colab_ssh --upgrade --quiet
     from colab_ssh import launch_ssh_cloudflared, init_git_cloudflared
     launch_ssh_cloudflared(password)
    ```
