@@ -437,6 +437,12 @@ Remote - SSH 擴展功能讓您可以將任何具有 SSH 伺服器的遠端機�
 
 <img src='img/2023-06-27-20-45-53.png' width='60%' />
 
+* 提醒您，如果是使用 **Windows** 作業系統，**無法正常 SS**H，得到以下錯誤: `ssh: could not resolve hostname`，您需要先前往 `C:/Windows/System32/drivers/etc/hosts` 添加您的 **Host** 與 **Hostname**:
+
+    ```
+    <Host> <Hostname>
+    ```
+
 接下來，讓我們以將 VS Code 連接到 Colab 的示例說明：
 
 #### 將 VS Code 連接到 Colab

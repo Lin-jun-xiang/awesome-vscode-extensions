@@ -444,6 +444,13 @@ Debug an application running somewhere else such as a customer site or in the cl
 
 <img src='img/2023-06-27-20-45-53.png' width='60%' />
 
+* Please note that if you are using the **Windows** operating system and experiencing issues with SSH, receiving the following error: `ssh: could not resolve hostname`, you need to add your **Host** and **Hostname** to the `C:/Windows/System32/drivers/etc/hosts` file:
+
+    ```
+    <Host> <Hostname>
+    ```
+
+
 
 Next, let's take an example of connecting VS Code to Colab:
 
