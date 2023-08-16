@@ -162,6 +162,11 @@ oh! Wait a minute, here is a quick way to switch themes . After all, you may wan
 
 <img src="img/2023-06-06-15-03-29.png" width="60%">
 
+### Hydra Theme for VS-Code
+* Black and red theme, exuding a strong sense of high-tech aesthetics.
+  
+<img src="img/2023-08-16-15-20-03.png" width="60%">
+
 ### LaserWave
 * A *purple pink* theme with a sunset feel
 
@@ -262,6 +267,18 @@ The plugins to be introduced below are really easy to use!
 
 Most of them can improve development efficiency, don't miss: emoji_heart_eyes:
 
+### autoDocstring - Python Docstring Generator
+* This plugin was introduced by . for Python developers
+* Use shortcut keys to quickly generate **Docstring** style comments .
+* Describe the purpose, parameters, return value and other information of the function.
+* Support different **Docstring** styles, such as google, sphinx, numpy, etc. . .
+
+> How to use: Press the key below where you want to generate comments
+Windows: `ctrl+shift+2`
+Mac: `cmd+shift+2`
+
+<img src="img/2023-03-17-21-07-10.png" width="60%">
+
 ### Code Runner
 * I believe that friends who have used VSCode should be familiar with this plugin! ?
 * Allow VSCode to execute the program with one click .
@@ -275,18 +292,6 @@ Most of them can improve development efficiency, don't miss: emoji_heart_eyes:
 
 <img src="img/2023-03-17-21-03-04.png" width="60%">
 
-### autoDocstring - Python Docstring Generator
-* This plugin was introduced by . for Python developers
-* Use shortcut keys to quickly generate **Docstring** style comments .
-* Describe the purpose, parameters, return value and other information of the function.
-* Support different **Docstring** styles, such as google, sphinx, numpy, etc. . .
-
-> How to use: Press the key below where you want to generate comments
-Windows: `ctrl+shift+2`
-Mac: `cmd+shift+2`
-
-<img src="img/2023-03-17-21-07-10.png" width="60%">
-
 ### Draw.io Integration
 * Flow chart drawing tool
 * When designing a project, you can use this plugin to plan the feasibility .
@@ -294,6 +299,23 @@ Mac: `cmd+shift+2`
 * Support many common modes, such as Google cloud platform representative function symbol (as shown in the figure).
 
 <img src="img/2023-03-17-21-14-00.png" width="60%">
+
+### Isort
+* This is intended for use by Python developers.
+* Automatically formats imports.
+* After downloading, add the following code to `settings.json`:
+
+    ```
+    "isort.args":["--profile", "black"]
+    ```
+
+* Next, open `Keyboard Shortcuts` and set a shortcut (the author has bound it to `F12`):
+
+  <img src="img/2023-08-16-15-25-55.png" width="60%">
+
+* Use the shortcut `F12` to automatically format Python imports.
+
+<img src="img/2023-08-16-15-27-41.png" width="60%">
 
 ### Path Intellisense
 * It's really cool to have this plugin when coding :kissing_heart:

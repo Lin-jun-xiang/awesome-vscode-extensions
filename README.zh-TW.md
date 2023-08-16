@@ -163,6 +163,11 @@
 
 <img src="img/2023-06-06-15-03-29.png" width="60%">
 
+### Hydra Theme for VS-Code
+* 黑紅色主題，高科技感十足
+  
+<img src="img/2023-08-16-15-20-03.png" width="60%">
+
 ### LaserWave
 * 具有日落感覺的*紫粉色*主題
 
@@ -263,6 +268,18 @@
 
 大部分可以提高開發效率,不要錯過:emoji_heart_eyes:
 
+### autoDocstring - Python Docstring Generator
+* 這個插件是由 . 為 Python 開發者引入的
+* 使用快捷鍵快速生成**Docstring**風格的註釋.
+* 描述函數的用途、參數、返回值等信息.
+* 支持不同的**Docstring**風格,如google、sphinx、numpy等. . .
+
+> 使用方法:在要生成評論的地方按下面的鍵
+Windows:`ctrl+shift+2`
+蘋果機:`cmd+shift+2`
+
+<img src="img/2023-03-17-21-07-10.png" width="60%">
+
 ### Code Runner
 * 相信用過VSCode的朋友應該對這個插件不陌生吧！ ？
 * 允許VSCode一鍵執行程序.
@@ -276,18 +293,6 @@
 
 <img src="img/2023-03-17-21-03-04.png" width="60%">
 
-### autoDocstring - Python Docstring Generator
-* 這個插件是由 . 為 Python 開發者引入的
-* 使用快捷鍵快速生成**Docstring**風格的註釋.
-* 描述函數的用途、參數、返回值等信息.
-* 支持不同的**Docstring**風格,如google、sphinx、numpy等. . .
-
-> 使用方法:在要生成評論的地方按下面的鍵
-Windows:`ctrl+shift+2`
-蘋果機:`cmd+shift+2`
-
-<img src="img/2023-03-17-21-07-10.png" width="60%">
-
 ### Draw.io Integration
 * 流程圖繪製工具
 * 設計項目時,可以使用本插件規劃可行性.
@@ -295,6 +300,23 @@ Windows:`ctrl+shift+2`
 * 支持多種常用模式,如穀歌云平台代表功能符號(如圖).
 
 <img src="img/2023-03-17-21-14-00.png" width="60%">
+
+### Isort
+* 這是提供給 Python 開發人員使用的
+* 能夠自動排版 Import
+* 下載完後，將以下代碼添加到 `settings.json`:
+
+    ```
+    "isort.args":["--profile", "black"]
+    ```
+
+* 接著打開`Keyboard Shortcuts`，設定快捷鍵 (作者綁定 `f12`):
+
+    <img src="img/2023-08-16-15-25-55.png" width="60%">
+
+* 使用快捷鍵 `f12`，自動排版 python import
+
+<img src="img/2023-08-16-15-27-41.png" width="60%">
 
 ### Path Intellisense
 * 編碼時有這個插件真的很酷:kissing_heart:
@@ -404,7 +426,7 @@ Windows:`ctrl+shift+2`
     * 圖像將保存在包含當前編輯文件的文件夾中
     * 相對路徑將粘貼到當前編輯的文件
 
-* 你可以在settings.中配置`imagePath`
+* 你可以在`settings.json`中配置`imagePath`
 
     <img src="img/2023-05-27-15-53-03.png" width="60%" />
 
