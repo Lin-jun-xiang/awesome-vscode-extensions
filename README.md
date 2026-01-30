@@ -26,7 +26,7 @@
      - [Remote WSL and Dev Container](#computer-remote-wsl--dev-container)
      - [Remote-SSH: How to connect VSCode to Colab?](#computer-remote-ssl)
      - [Fixer](#wrenchfixer-fix-vscode-corrupt)
-     - [Copilot Assist](#codeium)
+     - [Copilot Assist](#vscode-prompts-chat-extension)
      - [Community Shares and Contributions](./share/README.md)
 
 <details>
@@ -577,30 +577,14 @@ You can solve this problem with:
 ## :rocket: Copilot
 AI-assisted development tools similar to ChatGPT make everyone faster in the development process
 
-### Codeium
-* Completely **FREE** to use!
-*Comparison of functions with ChatGPT and Copilot
-* With this tool, you can:
-    * Automatic code generation
-    * automatically generates comments, `Docstring`
-    * automatically generates `Annotation hint`
-    * improve code quality
-
-    <img src="img/2023-06-02-11-36-02.png" width="40%" />
+### VSCode Prompts Chat Extension
+* This VS Code extension allows you to search and copy a large collection of open-source prompt templates from [prompts.chat](https://prompts.chat/) directly in your editor, making it easy to paste them into GitHub Copilot Chat.
 
 * Instructions
-    * Click `Refactor` of the code block
+    1. Press `Ctrl+Shift+P` and type `Prompt: Select Prompt`.
+    2. Select the prompt you want, and the content will be automatically copied to your clipboard.
+    3. Paste it into the Copilot Chat input box (`Ctrl+V`).
 
-        <img src="img/2023-06-02-11-35-37.png" width="60%" />
-
-    * Select the processing you want, eg: `Add comments and docstrings to the code`
-
-        <img src="img/2023-06-06-15-00-52.png" width="50%" />
-
-    * generate `Codeium` chat blocks
-
-        <img src="img/2023-06-06-15-05-18.png" width="40%" />
-
-    * code extraction is complete!
+    <img src="img/2026-01-30-09-58-56.png" width="60%">
 
 <a href="#top">Back to top</a>

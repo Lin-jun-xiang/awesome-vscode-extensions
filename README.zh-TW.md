@@ -26,7 +26,7 @@
      - [遠程 WSL 和開發容器](#computer-remote-wsl--dev-container)
      - [遠端 SSH: 如何連接 VSCode 與 Colab?](#computer-remote-ssl)
      - [修復器](#wrenchfixer-fix-vscode-corrupt)
-     - [副駕駛輔助](#codeium)
+     - [副駕駛輔助](#vscode-prompts-chat-extension)
      - [社區分享和貢獻](./share/README.md)
 
 <details>
@@ -577,30 +577,14 @@ Remote - SSH 擴展功能讓您可以將任何具有 SSH 伺服器的遠端機�
 ## :rocket: Copilot
 類似ChatGPT的AI輔助開發工具,讓大家在開發過程中更快
 
-### Codeium
-* 完全**免費**使用！
-*與ChatGPT和Copilot的功能對比
-* 使用此工具,您可以:
-    * 自動代碼生成
-    * 自動生成註釋,`Docstring`
-    * 自動生成 `Annotation hint`
-    * 提高代碼質量
+### VSCode Prompts Chat Extension
+* 這個 VS Code 擴充功能可以讓你直接在編輯器中搜尋並複製 [prompts.chat](https://prompts.chat/) 的大量開源 prompt 範本，快速貼到 GitHub Copilot Chat 使用。
 
-    <img src="img/2023-06-02-11-36-02.png" width="40%" />
+* 使用方式
+    1. 按 `Ctrl+Shift+P`，輸入 `Prompt: Select Prompt`。
+    2. 選擇你想要的 prompt，內容會自動複製到剪貼簿。
+    3. 在 Copilot Chat 輸入框貼上（`Ctrl+V`）即可。
 
-* 指示
-    * 單擊代碼塊的 `Refactor`
-
-        <img src="img/2023-06-02-11-35-37.png" width="60%" />
-
-    * 選擇你想要的處理,eg: `Add comments and docstrings to the code`
-
-        <img src="img/2023-06-06-15-00-52.png" width="50%" />
-
-    * 生成 `Codeium` 聊天塊
-
-        <img src="img/2023-06-06-15-05-18.png" width="40%" />
-
-    * 代碼提取完成！
+    <img src="img/2026-01-30-09-58-56.png" width="60%">
 
 <a href="#top">Back to top</a>
