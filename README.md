@@ -324,6 +324,13 @@ Mac: `cmd+shift+2`
 
 <img src="img/2023-03-17-21-17-09.png" width="60%">
 
+### GitHub Actions Workflow Visual Editor
+* Easily create or update a GitHub Actions workflow using a visual editor
+* No need to edit the YAML file or know GitHub workflows inside out!
+* The official GitHub Actions linter checks code validity in real time
+
+<img src="img/2026-02-14-11-05-34.png" width="60%">
+
 <a href="#top">Back to top</a>
 
 ---
