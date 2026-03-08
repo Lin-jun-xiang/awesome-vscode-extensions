@@ -380,6 +380,13 @@ The plugin provides the following features:
 ---
 
 ## :wave:Git、Markdown Support
+
+### CommitCraft AI
+* AI-powered VS Code extension that **generates git commit messages** from your staged diff in one click
+* Supports **Conventional Commits**, **GitMoji**, and Simple styles
+* Also generates PR descriptions and changelog entries
+* Free tier: 20 generations/month | Pro: $4.99/month
+* [Marketplace](https://marketplace.visualstudio.com/items?itemName=CommitCraftAI.commitcraft-ai) | [GitHub](https://github.com/Mohammad2460/commitcraft-vscode)
 The plugins described below are essential for developers working on Github or Gitlab projects .
 
 ### GitLens
