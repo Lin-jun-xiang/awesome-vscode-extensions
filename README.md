@@ -577,6 +577,9 @@ You can solve this problem with:
 ## :rocket: Copilot
 AI-assisted development tools similar to ChatGPT make everyone faster in the development process
 
+### RemoteOpenClaw
+* [RemoteOpenClaw](https://remoteopenclaw.com) - Open marketplace for AI skills and personas built on OpenClaw. Discover, share, and sell community-built AI agent skills and personas.
+
 ### VSCode Prompts Chat Extension
 * This VS Code extension allows you to search and copy a large collection of open-source prompt templates from [prompts.chat](https://prompts.chat/) directly in your editor, making it easy to paste them into GitHub Copilot Chat.
 
