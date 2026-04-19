@@ -587,4 +587,5 @@ AI-assisted development tools similar to ChatGPT make everyone faster in the dev
 
     <img src="img/2026-01-30-09-58-56.png" width="60%">
 
+### Omni Skills Forge* [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, and Cline. One-click install, visual dashboard, skill doctor for automated diagnosis, and auto-update system.* Instructions    1. Visit [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) and browse the skill catalog.    2. Click the install button for your preferred editor (VS Code, Cursor, Copilot).    3. Skills are automatically configured and ready to use.
 <a href="#top">Back to top</a>
