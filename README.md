@@ -6,6 +6,8 @@
 
 [En README](README.md) | [中文版說明檔](README.zh-TW.md)
 
+${ASB}
+${OSF}
 ---
 
 * Record and share vscode extensions, including improving development efficiency, key points, theme beautification, etc. . .
