@@ -586,6 +586,7 @@ AI-assisted development tools similar to ChatGPT make everyone faster in the dev
 
 ### VSCode Prompts Chat Extension
 * This VS Code extension allows you to search and copy a large collection of open-source prompt templates from [prompts.chat](https://prompts.chat/) directly in your editor, making it easy to paste them into GitHub Copilot Chat.
+* [Bee Code](https://marketplace.visualstudio.com/items?itemName=Heossi.beecode) - Governed AI coding agent for VS Code: repository-aware agent loop with governed tool execution, durable runs, and post-quantum trust controls.
 
 * Instructions
     1. Press `Ctrl+Shift+P` and type `Prompt: Select Prompt`.
