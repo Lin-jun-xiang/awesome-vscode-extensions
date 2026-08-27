@@ -588,6 +588,12 @@ AI-assisted development tools similar to ChatGPT make everyone faster in the dev
 * This VS Code extension allows you to search and copy a large collection of open-source prompt templates from [prompts.chat](https://prompts.chat/) directly in your editor, making it easy to paste them into GitHub Copilot Chat.
 
 * Instructions
+
+### NEDIO — Pomodoro Timer & Focus Music
+
+* Run focused coding sprints without leaving VS Code.
+* Includes instrumental focus music, a status-bar countdown, sprint reviews, and AI weekly recommendations.
+* [Install from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=nedio.pomodoro-focus-music)
     1. Press `Ctrl+Shift+P` and type `Prompt: Select Prompt`.
     2. Select the prompt you want, and the content will be automatically copied to your clipboard.
     3. Paste it into the Copilot Chat input box (`Ctrl+V`).
