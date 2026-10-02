@@ -558,6 +558,13 @@ Remeber you only need to perform steps 6, 8, 9, and 10 once
 
 15. Finished!
 
+### Easy SSH
+* "Easy SSH" keeps a list of SSH connections and opens your real login shell in a VS Code / Cursor terminal tab. Nothing is installed on the server, and no remote editor is downloaded.
+* Ctrl+click (Cmd+click on macOS) a file name to download it, Ctrl+click a directory to `cd` into it, and drag files onto the terminal to upload them into the current remote directory.
+* Supports password, private key and SSH agent sign-in, jump hosts, and importing `~/.ssh/config`.
+
+<img src="https://raw.githubusercontent.com/dhlptx00/EasySSH/main/media/readme/connect-and-download.gif" width="60%">
+
 <a href="#top">Back to top</a>
 
 ---
