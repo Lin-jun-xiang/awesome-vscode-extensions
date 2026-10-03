@@ -19,3 +19,9 @@
 * You can also create your own custom effects .
 
 <image src="https://user-images.githubusercontent.com/130225999/231623769-d86a09e8-1611-4b38-a6ba-c87aea9bd13f.png" width="60%" />
+
+### Atomic Reps
+
+* [Atomic Reps](https://marketplace.visualstudio.com/items?itemName=AtomicReps.atomicreps) asks about your change after a commit or a passing test run, in a panel beside your terminal. You answer from memory with one key.
+
+* Install: `code --install-extension AtomicReps.atomicreps` (free account). More at [atomicreps.com/vscode](https://atomicreps.com/vscode).
