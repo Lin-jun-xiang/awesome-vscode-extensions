@@ -6,6 +6,12 @@
 
 ---
 
+### DocuMint
+
+* [DocuMint](https://marketplace.visualstudio.com/items?itemName=wonderertech.documint) is a VS Code extension that generates source-grounded codebase maps and Markdown/HTML documentation locally, with optional AI-enhanced explanations.
+
+<img src="https://raw.githubusercontent.com/Wonderer-Tech/documint/main/resources/Screenshot%20From%202026-10-01%2012-19-21.png" width="60%" />
+
 ### In Your Face
 
 * "In Your Face" is a VS Code extension that shows you Doom "Ouch Faces" relative to the number of bugs in your code! !
