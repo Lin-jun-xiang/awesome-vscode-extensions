@@ -198,6 +198,11 @@ oh! Wait a minute, here is a quick way to switch themes . After all, you may wan
 
 <img src="img/2023-03-17-20-23-37.png" width="60%">
 
+### Simple light
+* Light theme with minimal syntax highlighting, inspired by IntelliJ IDEA and GitLab
+
+<img src="img/2026-11-10-13-30-00.png" width="60%">
+
 ### Skyline
 * Blue lovers must use it :blue_heart:
 
