@@ -24,6 +24,6 @@
 
 * A VS Code TODO/FIXME tree with owners, due dates, git blame, a branch Changes view, Insights, and optional Copilot chat tools. Strong C# / .NET support. Offline, no telemetry.
 
-* [Marketplace](https://marketplace.visualstudio.com/items?itemName=onurkarakus.todoforge) · [GitHub](https://github.com/onurkarakus/todo-forge)
+* [Marketplace](https://marketplace.visualstudio.com/items?itemName=onurkarakus.todoforge) · [Open VSX](https://open-vsx.org/extension/onurkarakus/todoforge) · [GitHub](https://github.com/onurkarakus/todo-forge)
 
 <img src="https://raw.githubusercontent.com/onurkarakus/todo-forge/main/media/screenshots/demo.gif" width="60%" />
