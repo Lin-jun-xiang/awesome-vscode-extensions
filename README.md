@@ -385,8 +385,8 @@ The plugin provides the following features:
 
 ### [RowSlate — Parquet, SQLite, Excel, CSV & JSONL Viewer + Visual Git Diff](https://marketplace.visualstudio.com/items?itemName=lukaslabs.rowslate)
 * Zero-dependency local data workbench for VS Code and Cursor ([Open VSX](https://open-vsx.org/extension/lukaslabs/rowslate)).
-* Opens multi-GB Apache Parquet (, , , , ), large SQLite ( via a 4 KB paged disk VFS — no 200 MB crash wall), Excel (), CSV, and JSONL files locally.
-* Adds 1-click primary-key **Visual Git Diff vs HEAD** for , , , and  files directly in Source Control.
+* Opens multi-GB Apache Parquet (`ZSTD`, `LZ4`, `Snappy`, `Gzip`, `Brotli`), large SQLite (`>250 MB` via a 4 KB paged disk VFS — no 200 MB crash wall), Excel (`.xlsx`), CSV, and JSONL files locally.
+* Adds 1-click primary-key **Visual Git Diff vs HEAD** for `.xlsx`, `.parquet`, `.sqlite`, and `.csv` files directly in Source Control.
 
 <a href="#top">Back to top</a>
 
